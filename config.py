@@ -59,8 +59,8 @@ NEAR_DUPLICATE_THRESHOLD = 0.98              # cosine similarity above this gets
 EMBED_DIR = ROOT / "embeddings"                  # cached embeddings (.npy)
 TUNE_BUDGET = {"banking77": 10, "emotion": 100}  # middle budget for dev tuning
 TUNE_SEED = 0
-LOGREG_BEST_C = {"banking77": 10, "emotion": 0.01}   # replace with your tuning results
-LOGREG_C = [0.01, 0.1, 1, 10, 100]                  # regularization values to try
+LOGREG_BEST_C = {"banking77": 10, "emotion": 0.001}   # replace with your tuning results
+LOGREG_C = [0.0001,0.001,0.01, 0.1, 1,10,100]                  # regularization values to try
 
 DEBERTA_LRS = [2e-5, 5e-5, 1e-4]                 # learning rates to try
 DEBERTA_EPOCHS = 5

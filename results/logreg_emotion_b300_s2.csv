@@ -42,7 +42,7 @@ idx,true,pred
 40,anger,joy
 41,sadness,sadness
 42,joy,joy
-43,fear,fear
+43,fear,joy
 44,love,joy
 45,joy,joy
 46,anger,anger
@@ -140,7 +140,7 @@ idx,true,pred
 138,anger,sadness
 139,sadness,sadness
 140,joy,joy
-141,sadness,fear
+141,sadness,sadness
 142,joy,anger
 143,anger,sadness
 144,joy,love
@@ -172,7 +172,7 @@ idx,true,pred
 170,sadness,sadness
 171,joy,joy
 172,surprise,surprise
-173,sadness,sadness
+173,sadness,joy
 174,joy,fear
 175,sadness,sadness
 176,fear,fear
@@ -261,7 +261,7 @@ idx,true,pred
 259,joy,anger
 260,joy,joy
 261,anger,anger
-262,sadness,surprise
+262,sadness,joy
 263,anger,anger
 264,surprise,joy
 265,sadness,fear
@@ -281,7 +281,7 @@ idx,true,pred
 279,sadness,sadness
 280,love,joy
 281,joy,fear
-282,fear,love
+282,fear,joy
 283,joy,joy
 284,sadness,sadness
 285,anger,anger
@@ -316,7 +316,7 @@ idx,true,pred
 314,sadness,surprise
 315,joy,joy
 316,fear,surprise
-317,anger,love
+317,anger,anger
 318,sadness,sadness
 319,surprise,joy
 320,joy,joy
@@ -342,7 +342,7 @@ idx,true,pred
 340,love,joy
 341,joy,joy
 342,surprise,surprise
-343,sadness,love
+343,sadness,anger
 344,anger,sadness
 345,joy,joy
 346,love,joy
@@ -567,7 +567,7 @@ idx,true,pred
 565,sadness,sadness
 566,joy,sadness
 567,joy,joy
-568,surprise,love
+568,surprise,sadness
 569,sadness,fear
 570,joy,joy
 571,sadness,fear
@@ -706,7 +706,7 @@ idx,true,pred
 704,sadness,sadness
 705,fear,fear
 706,joy,love
-707,sadness,sadness
+707,sadness,love
 708,joy,joy
 709,joy,surprise
 710,love,joy
@@ -778,7 +778,7 @@ idx,true,pred
 776,anger,sadness
 777,love,joy
 778,sadness,sadness
-779,joy,surprise
+779,joy,joy
 780,joy,joy
 781,fear,anger
 782,sadness,sadness
@@ -893,7 +893,7 @@ idx,true,pred
 891,love,love
 892,sadness,sadness
 893,anger,love
-894,joy,surprise
+894,joy,joy
 895,sadness,anger
 896,joy,joy
 897,joy,joy
@@ -904,7 +904,7 @@ idx,true,pred
 902,joy,joy
 903,sadness,fear
 904,anger,anger
-905,love,love
+905,love,joy
 906,fear,anger
 907,anger,anger
 908,joy,joy
@@ -995,7 +995,7 @@ idx,true,pred
 993,sadness,joy
 994,fear,sadness
 995,joy,joy
-996,love,love
+996,love,joy
 997,sadness,sadness
 998,joy,joy
 999,anger,love

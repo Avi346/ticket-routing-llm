@@ -42,7 +42,7 @@ idx,true,pred
 40,anger,joy
 41,sadness,sadness
 42,joy,joy
-43,fear,fear
+43,fear,joy
 44,love,joy
 45,joy,joy
 46,anger,anger
@@ -93,7 +93,7 @@ idx,true,pred
 91,sadness,sadness
 92,sadness,love
 93,joy,joy
-94,surprise,surprise
+94,surprise,joy
 95,fear,fear
 96,joy,joy
 97,anger,fear
@@ -147,7 +147,7 @@ idx,true,pred
 145,love,joy
 146,sadness,anger
 147,sadness,sadness
-148,joy,fear
+148,joy,sadness
 149,anger,anger
 150,fear,fear
 151,joy,joy
@@ -236,7 +236,7 @@ idx,true,pred
 234,surprise,joy
 235,sadness,sadness
 236,fear,surprise
-237,anger,anger
+237,anger,joy
 238,sadness,anger
 239,joy,joy
 240,joy,love
@@ -261,7 +261,7 @@ idx,true,pred
 259,joy,anger
 260,joy,joy
 261,anger,sadness
-262,sadness,love
+262,sadness,joy
 263,anger,anger
 264,surprise,joy
 265,sadness,fear
@@ -323,7 +323,7 @@ idx,true,pred
 321,anger,fear
 322,sadness,sadness
 323,love,joy
-324,joy,love
+324,joy,joy
 325,sadness,joy
 326,joy,joy
 327,joy,joy
@@ -399,7 +399,7 @@ idx,true,pred
 397,sadness,love
 398,love,joy
 399,anger,anger
-400,joy,fear
+400,joy,sadness
 401,sadness,sadness
 402,anger,sadness
 403,sadness,anger
@@ -427,12 +427,12 @@ idx,true,pred
 425,joy,joy
 426,love,love
 427,anger,anger
-428,sadness,fear
+428,sadness,anger
 429,sadness,anger
 430,joy,joy
 431,love,anger
 432,joy,joy
-433,fear,surprise
+433,fear,anger
 434,joy,joy
 435,anger,joy
 436,sadness,sadness
@@ -500,7 +500,7 @@ idx,true,pred
 498,sadness,anger
 499,joy,joy
 500,love,joy
-501,joy,surprise
+501,joy,joy
 502,sadness,sadness
 503,fear,surprise
 504,sadness,sadness
@@ -567,7 +567,7 @@ idx,true,pred
 565,sadness,sadness
 566,joy,anger
 567,joy,joy
-568,surprise,fear
+568,surprise,sadness
 569,sadness,fear
 570,joy,joy
 571,sadness,fear
@@ -583,7 +583,7 @@ idx,true,pred
 581,fear,fear
 582,surprise,sadness
 583,anger,anger
-584,sadness,fear
+584,sadness,anger
 585,sadness,sadness
 586,joy,joy
 587,love,joy
@@ -674,11 +674,11 @@ idx,true,pred
 672,surprise,joy
 673,love,anger
 674,fear,sadness
-675,joy,sadness
+675,joy,joy
 676,sadness,joy
 677,anger,anger
 678,joy,joy
-679,sadness,surprise
+679,sadness,joy
 680,joy,surprise
 681,sadness,sadness
 682,fear,fear
@@ -714,7 +714,7 @@ idx,true,pred
 712,fear,fear
 713,anger,anger
 714,sadness,fear
-715,joy,love
+715,joy,joy
 716,joy,joy
 717,fear,fear
 718,sadness,anger
@@ -800,7 +800,7 @@ idx,true,pred
 798,love,joy
 799,fear,fear
 800,sadness,joy
-801,joy,fear
+801,joy,joy
 802,anger,anger
 803,sadness,love
 804,joy,joy
@@ -827,7 +827,7 @@ idx,true,pred
 825,joy,joy
 826,love,love
 827,joy,sadness
-828,sadness,fear
+828,sadness,sadness
 829,joy,joy
 830,anger,sadness
 831,sadness,sadness
@@ -836,7 +836,7 @@ idx,true,pred
 834,joy,joy
 835,sadness,sadness
 836,fear,fear
-837,sadness,fear
+837,sadness,sadness
 838,joy,joy
 839,anger,sadness
 840,joy,joy
@@ -882,7 +882,7 @@ idx,true,pred
 880,joy,anger
 881,sadness,sadness
 882,fear,fear
-883,joy,love
+883,joy,joy
 884,anger,joy
 885,sadness,sadness
 886,sadness,love
@@ -893,7 +893,7 @@ idx,true,pred
 891,love,love
 892,sadness,sadness
 893,anger,love
-894,joy,surprise
+894,joy,joy
 895,sadness,anger
 896,joy,joy
 897,joy,joy
@@ -970,7 +970,7 @@ idx,true,pred
 968,joy,joy
 969,joy,joy
 970,fear,fear
-971,surprise,surprise
+971,surprise,joy
 972,joy,joy
 973,sadness,anger
 974,fear,anger
