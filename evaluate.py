@@ -24,6 +24,7 @@ def json_validity(outputs, labels):
 
 def correct_array(true_labels, predicted):
     # 1 if right, 0 if wrong. None (invalid output) is always wrong
+    assert len(true_labels) == len(predicted), "length mismatch"
     return np.array([1 if t == p else 0 for t, p in zip(true_labels, predicted)])
 
 
