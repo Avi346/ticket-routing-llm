@@ -1,489 +1,529 @@
 test_text,train_text,similarity
-What is the verification code on a top-up?,Help my find the verification code on a top-up.,0.9656723
-Where are my funds coming from? I need to know.,I need to know where my funds come from.,0.97492886
-What are the steps in order to activate my new card?,What do I do to activate my new card?,0.97511864
-Card payment declined?,"My card payment has been declined, why?",0.9598813
+What are the steps in order to activate my new card?,What are the steps that I need to take to activate a new card?,0.9861689
+What are the steps in order to activate my new card?,What steps do I have to go through in order to activate my new card?,0.9915935
+Will I be charged for a SEPA transfer?,Will I be charged a fee for a SEPA transfer?,0.98180187
 Will I be charged for a SEPA transfer?,Am I going to see a charge for a SEPA transfer?,0.9801055
-I can't get money out of the ATM,I cannot get my card out of the ATM.,0.95493644
-Is my card accepted everywhere?,Is my card accepted anywhere?,0.9677413
 For what reason was my transfer declined?,What would be a reason my transfer got declined?,0.98407006
-I need you to cancel a transfer that I made.  It is the wrong account number and the app won't let me stop the transaction.  Please stop it!,Please cancel the transfer I just made.  I put in the wrong account number and can't seem to stop it on the app.,0.9700672
-Where is the tracking number for the card you sent me?,What's the tracking on the card you sent?,0.9533036
+For what reason was my transfer declined?,Why did my transfer get declined?,0.9808525
+For what reason was my transfer declined?,My transfer was declined. What might the reason be?,0.9835062
+For what reason was my transfer declined?,"My transfer was declined, why is that?",0.98049283
+Where is the tracking number for the card you sent me?,Is there a tracking number for the card you sent me?,0.98224115
 Why isn't my contactless not working?,Why is my contactless not working?,0.99416006
-Is there a limit to top-up amounts?,is there a limit for top up?,0.9705602
-What are the fees to get a physical card?,How much does it cost for a physical card?,0.9585707
-My card is gone I think it was stolen,My card was stolen,0.9562799
-How do I transfer money to my account?,How do I transfer money into my account?,0.98931664
-"I bought something, but the exchange rate looks wrong.",I bought an item then noticed the exchange rate was wrong.,0.9727262
-How do I use auto top up?,How do I start auto top up?,0.9668652
-"I'm not in the UK, can I still get a card?","I want a card, but I'm not in the UK- can I get one still?",0.9793884
+Can you explain your exchange rate policy to me?,Please explain your exchange rate policy.,0.9845413
+How do I transfer money to my account?,How do I transfer money into my account?,0.9893164
+How do I transfer money to my account?,How can I transfer money into my account?,0.98177546
+How do I use auto top up?,How do I auto top-up?,0.9823219
+"I'm not in the UK, can I still get a card?",I don't live in the UK. Can I still get a card?,0.9886311
+"I'm not in the UK, can I still get a card?","I'm not in the UK, but can I still get a card?",0.9971738
 Where do I verify my identity?,Where can I verify my identity?,0.993803
+Where do I verify my identity?,Where do I go to verify my identity?,0.99176747
+If my transfer is from Europe how long will it take?,How long will this transfer from europe take?,0.98234963
 If my transfer is from Europe how long will it take?,How long will a transfer from Europe take?,0.9801822
-Where did the extra fee on my statement come from?,What is this extra fee on my statement.,0.9669596
-I accidentally blocked my PIN. How do I reset it?,I forgot my pin and am blocked now. Can I reset it somewhere?,0.9637929
-"If I lost my phone, can someone use my account?",Can someone else use my account if they have my phone?  I lost mine.,0.9535091
+If my transfer is from Europe how long will it take?,How long will a transfer take from Europe?,0.9832225
+My card payment is showing pending.,I have a card payment which shows as pending,0.98221713
+My card payment is showing pending.,Card payment is showing as pending,0.9876158
 My card payment is showing pending.,The payment on my card shows as pending.,0.9846773
-How do I get a visa card?,Is there a way I can get a Visa card?,0.96134317
-My disposable virtual card has been rejected by the merchant earlier today. What should I do?,My disposable virtual card got rejected,0.9586123
-Why isn't my transfer going through? I get a message saying it's not possible. I've had no issues in the past.,Just received a message that my transfer is not possible??  What is going on.  I have done this before with no issues.,0.95417273
-"I tried verifying my ID, but it won't let me.",How come I can't seem to verify my id?,0.9615402
-Why was my account deducted from a seller when I didn't approve of it?,Is there a way for you to find out why my account was deducted from a seller when I didn't approve of it?,0.95194626
-"I already have one of your cards, how do I link them?",How do I link one of your card that I already have?,0.9726695
-Why can't I use my American Express with Apple Pay to top up my account?,Unable to use my American Express with Apple Pay to top up my account,0.97632676
-I've attempted to do a very standard transfer and have tried 5 times at this point. Can you tell me what the issue is? Is the system down?,I have tried 5 times at this point to complete a transfer that's simply standard. What appears to be the problem? Is your system messed up?,0.9736191
-I have friends that would like to top-up my account is that possible?,Is it possible for friends to top up my account?,0.9703778
-What places will accept my card for payment?,At what places accept my card?,0.9608518
+How do I get a visa card?,How can get a Visa card?,0.9925449
 "I'm not certain, but someone may be using my card.","I can't be sure, but I think that someone may be using my card.",0.98429215
+"I'm not certain, but someone may be using my card.","I think that someone may be using my card, but I'm not sure,.",0.9810394
 Is there an auto top-up option?,Is there a auto top-up option?,0.9999399
+Is there an auto top-up option?,Is an auto top-up option available?,0.990157
+Is there an auto top-up option?,Is there an auto top up feature?,0.9864943
+Is there an auto top-up option?,Is there such thing as an auto top-up option?,0.9940411
+Is there an auto top-up option?,Is there an auto top up option?,0.99546343
+Is there an auto top-up option?,Can I use an auto top-up option?,0.9812312
 What if I need my salary in a different currency?,What if I need my salary in another currency?,0.9874816
 I have a strange cash withdrawal in my statement,I got a strange cash withdrawal in my statement,0.99523246
 What is the importance of verifying the top-up?,What is the significance of verifying the top-up?,0.98061335
 Do you guys accept mastercard or visa?,Do you accept Visa or Mastercard?,0.9876225
-Can I verify my identity online?,How do I verify my identity online,0.9696325
-What is the limit to number of transactions I can do with a disposable card?,how many transactions can go on a disposable card?,0.96198463
+Why isn't my ID being verified?,Why isn't my id verified?,0.9955304
+Why isn't my ID being verified?,Why isn't my id verifying?,0.98201525
 Why isn't my ID being verified?,Why hasn't my ID been verified?,0.9905354
+Why isn't my ID being verified?,Why can't my ID be verified?,0.981475
 My virtual card won't work.,My virtual card isn't working.,0.9888983
-Can I exchange currencies?,Is it possible to exchange currencies?,0.9780023
-Why does my statement have these extra charges?,Why is there an extra charge on my statement.,0.97850823
-can i get a description of how to use a disposable virtual card,I would like to know more about what a disposable virtual card is?,0.95082295
+My virtual card won't work.,The virtual card won't work.,0.9837554
+My virtual card won't work.,I can't get my virtual card to work.,0.9807813
+Why do I have to verify my identity?,What's the reason for needing to verify my identity?,0.9831617
+Why do I have to verify my identity?,Why do I need to verify my identity?,0.9894002
 Why do I have to verify my identity?,Why is it required to verify my identity?,0.98594
-Where are the locations of ATMs that accept this card?,Where are the ATMs that accept this card?,0.9915003
+Why do I have to verify my identity?,Why do you need to verify my identity?,0.98515224
+Where are the locations of ATMs that accept this card?,Where are the ATMs that accept this card?,0.9915004
+I tried to buy something online yesterday but it wouldn't stop saying declined. Tried again today but same thing happened. What's Broken?,I tried to buy something online yesterday but it kept saying declined. Tried another time today but same thing happened. What's Broken?,0.9903336
 I tried to buy something online yesterday but it wouldn't stop saying declined. Tried again today but same thing happened. What's Broken?,I tried to buy something online yesterday but it kept saying declined. Tried again today but same thing happened. What's wrong?,0.98042583
 Can I use American Express to add money into my account?,Am I able to add money into my account using my American Express?,0.98582983
-How much is the charge to top up my card?,What is the charge for topping up a card?,0.95419335
-I think the atm ate my card.,atm ate my card,0.9517015
+Can I use American Express to add money into my account?,Can I use my American Express card to add money into my account?,0.9876765
+Can I use American Express to add money into my account?,How can I use my American Express to add money into my account?,0.9801223
+What do I need to do to change my PIN?,How do I go about changing my PIN?,0.98219085
+What do I need to do to change my PIN?,What steps do I have to take to change my PIN?,0.9834833
 What do I need to do to change my PIN?,What do I have to do to change my pin?,0.99494684
-How can I check the source of my fund?,How do I see my source of funds?,0.9541539
 "Once my card expires, what should I do?",After my card expires what should I do?,0.9810697
-Why is my money gone right when I attempted to top up,My money disappeared right when I tried to top up,0.9509729
-How can I top up with cash?,How do you top-up using cash?,0.9722682
-I think my top-up was cancelled.,My top-up was just cancelled.,0.97297496
-Do you offer a discount on multiple currency exchanges?,Is there a discount for multiple currency exchanges?,0.97412586
+"Once my card expires, what should I do?",What should I do once my card expires?,0.9906902
+How can I top up with cash?,How do I top up with cash?,0.9960313
+Is it possible to give a second card for this account to my daughter?,"I want to give a second card for this account to my daughter, would this be possible?",0.9875195
 Is it possible to give a second card for this account to my daughter?,Is it possible for me to give my daughter a second card for this account?,0.9949634
-"I found my card, I would like to reactivate it.","I want to reactivate my card, I thought I had lost it but I found it.",0.9641297
-I wish to close my account. I do not like the service you provide.,"I don't like the services, please close my account",0.9647161
-I got my American Express in Apple Bay but top up is not working,what can I do if I got my American Express in Apple Bay but top up is not working?,0.9902197
-"I've notice I was charged for withdrawing cash, can you explain why?",Why was I charged for cash withdrawal?,0.96080244
-Why was I charged for card payment?,Why was I charged a fee for my card payment?,0.96657515
-I attempted to top up but the app denied it.,I tried to top up but the app rejected it.,0.9756688
+Is it possible to give a second card for this account to my daughter?,Can I give a second card for this account to my daughter?,0.99452794
+Is it possible to give a second card for this account to my daughter?,Is it possible to give a second card from my account to my daughter?,0.9890859
+I got my American Express in Apple Bay but top up is not working,why top up is not working even if I got my American Express in Apple Bay?,0.98524874
+I got my American Express in Apple Bay but top up is not working,what can I do if I got my American Express in Apple Bay but top up is not working?,0.9902195
 What happens if a merchant doesn't accept a payment?,What happens if a merchant doesn't accept  you payment?,0.9949131
-"I need to cancel my recent transfer immediately, I made a mistake there, please help quickly before it goes through",I need to cancel my recent transfer as soon as possible. I made an error there. Please help before it goes through.,0.9555097
-Why is the exchange rate wrong when I purchase something abroad?,I recently bought something abroad but the exchange rate is incorrect. Why?,0.96718895
-What are the fees for a physical card?,How much does it cost for a physical card?,0.96405005
-"I believe my card has been stolen, what can I do about this situation? It's urgent.",What should I do?  My card has been stolen!,0.95017743
+What are the fees for a physical card?,What fees are charged for a physical card?,0.98313576
 Are there limits to top-ups?,Do top-ups have limits?,0.9886249
-"I need AUD not GBP, how do I change it?",How do I change to AUD from GBP?,0.9773689
-Can I open an account for a child?,Could I open an account for children?,0.9708538
-Is there any way to cancel a transfer?,Is it possible to cancel my transfer?,0.97956717
+Are there limits to top-ups?,What limits are the to top-ups?,0.98318845
+Is there any way to cancel a transfer?,Is there any way to cancel my transfer,0.9809678
+Is there any way to cancel a transfer?,How do I cancel a transfer?,0.98377585
+In my statement there is a payment that is I do not recognize,on my statement there is a payment that I don't recognise,0.987286
+I would like to create a disposable virtual card. How do I go about doing that?,How can I create a disposable virtual card?,0.9892467
 I would like to create a disposable virtual card. How do I go about doing that?,How do I create a disposable virtual card?,0.9896092
-How does tranferring money into my account work?,Whats the process of tranfering money into an account?,0.95687985
-Will it automatically top-up if there isn't much money left?,"If there isn't a lot of money left, will it automatically top-up money?",0.97688353
+Will it automatically top-up if there isn't much money left?,"If there isn't much money left over, will it top-up automatically?",0.98274755
+Where can I reset the passcode?,Where do I go to reset the passcode?,0.9946649
+Where can I reset the passcode?,Where do I go to reset my passcode?,0.9870552
 Where can I reset the passcode?,How can I reset my passcode?,0.9801266
-How do I link my card,How do I link my new card?,0.95514494
-I tried to get $100 but I just got $20,I requested $100 but only got $20,0.95436317
-My card doesn't accept any transaction at all. What's wrong??,Why won't my card accept any transactions?,0.9647969
+Where can I reset the passcode?,How can i reset my passcode ?,0.9801266
 My top-up has failed.,My top up has failed,0.9843328
-How long should my new card take to arrive?,How long does it take for me to get my new card?,0.96552384
-I bought something in a foreign currency but the rate applied is wrong!,Why was the wrong rate applied when I bought something in a different currency?,0.9534114
-"Something went wrong, I was charged an extra pound?","There must have been a mistake, why was I charged an extra pound?",0.9644148
 Would I be able to get a refund for something I bought?,Am I able to get a refund for something I bought?,0.9873779
-Is it possible to get a card if I'm not in the UK?,Can I get a card although I'm not in the UK,0.97635114
-Are there extra charges for exchanging currency?,Do you charge extra for exchanging currencies?,0.9658588
-I want to top-up using cash,I want to use cash to top up.,0.9790334
+Is it possible to get a card if I'm not in the UK?,Is it possible to get a card when i'm not in the UK?,0.9936888
 "Next month my card will expire, do I need to order a new one?","My card will expire next month, will I need to order a new one?",0.99382555
-How can I check the source for my funds?,How do I find out my source of funds?,0.956448
-Can it be delivered by a specific date?,Is there a specific date it can be delivered by?,0.95703596
-My transfer got declined.,My transfer was declined. Why did this happen?,0.96520305
+"Next month my card will expire, do I need to order a new one?","If my card expires next month, will I need to order a new one?",0.9888886
+"Next month my card will expire, do I need to order a new one?","If my card is going to expire this month, do I need to order a new one?",0.98591226
 Would it be possible to get another card?,Is it possible to get another card?,0.98671997
 How can I top up by card?,How do I top up by card?,0.9962001
 What do I need to verify my identity,What am I going to need in order to verify my identity?,0.9825995
-Which fiat currencies do you support?,Please tell me which fiat currencies you support.,0.97600234
-It is impossible to verify my identity,I'm unable to verify my identity,0.97235024
+What do I need to verify my identity,What will I need to verify my identity,0.994452
+Which fiat currencies do you support?,What fiat currencies do you support?,0.9970701
+Which fiat currencies do you support?,What type of fiat currencies do you support?,0.9872823
 Cash withdrawal still pending?,Why is my cash withdrawal still pending?,0.98487633
-I have a transfer that's pending and wanted to know how long it is going to take to process?,There has been a transfer pending in my account and I wanted to know how long it is going to take to go  through.,0.9597404
-How can I stop fraud on my account right now?,How do I stop fraud to my account?,0.961538
-I got my new card. How do I activate it?,How do I activate my new card I just got?,0.9830005
-My disposable virtual card is broken.,This disposable virtual card is not working.,0.9546405
-I topped up but the app reverted it,What I topped up was reverted by the app.,0.96642846
-There's a debit on my account that I didn't do.,What do I do about a debit on my account that I didn't make?,0.95563483
-Help! Someone stole my card!,Someone stole my card!,0.98736364
+I got my new card. How do I activate it?,"I just got my new card, how do I activate it?",0.99187607
+I got my new card. How do I activate it?,How do I activate my new card I just got?,0.98300046
+I got my new card. How do I activate it?,My new card came in.  How do I activate?,0.98793316
+I got my new card. How do I activate it?,"I just got a new card, and I want to know how to activate.",0.98163754
+I got my new card. How do I activate it?,"With my new card, how may I activate it?",0.98246515
+I got my new card. How do I activate it?,Could you please tell me how to activate my new card?,0.98051745
+I got my new card. How do I activate it?,I have a new card. How do I activate it?,0.99321103
+I got my new card. How do I activate it?,How do I activate my new card,0.981406
+I got my new card. How do I activate it?,I just got my new card.  How can I activate it?,0.9898398
+I topped up but the app reverted it,The app reverted after I topped-up,0.9841691
+Help! Someone stole my card!,Someone stole my card!,0.98736346
 I am still awaiting the completion of the transaction.,I'm still awaiting for the completion of the transaction.,0.9955775
-Someone stole my phone yesterday :( is there anything I need to do?,Yesterday my phone was stolen from me :( What do i need to do about it?,0.9673927
-There is a Direct Debit that I don't recognize.,There's a direct debit payment that I don't recognize.,0.97668856
-What are the top-up limits?,Are there any top-up limits?,0.9780481
-I need the source of my funds verified. How do I do this?,I need to verify the source of funds.,0.9533149
-I am seeing in the App a some cash withdrawal that its not mine,I am seeing in the App a some cash withdrawal that does not belong to me,0.9722078
+"I Submitted a cheque couple days ago, nothing happened to my account yet.Would you please check What could be the possible issue?","I Submitted a cheque couple of days ago, nothing happened to my account yet.What could be the possible issue?",0.98988307
+I am seeing in the App a some cash withdrawal that its not mine,I am seeing inside the App a some cash withdrawal that is not mine,0.9833907
 I cannot verify my identity,I'm unable to verify my identity,0.98524
-"I don't recognize some of the transactions on my card, I think someone must have gotten my card info and used it.","There are transactions that I don't remember making, i think someone might have gotten my card details and is now using it.",0.9559126
-What is going on? My top-up is still pending. I use your system all the time but now it is just showing as pending.,Can you tell me what is wrong ? I top-up with you all the time but this time it just shows my top-up as pending. What is happening?,0.9535181
-Please help me make a transfer. I keep receiving an error and I'm trying to make the initial mortgage payment for a flat I'm buying. What is the deal here?,"Hi, I'm trying to purchase a flat and I'm needing the first payment for the mortgage to go through on the flat I'm trying to buy. For some reason I keep getting an error.can you assist in making this transfer? What is going on?",0.96840054
-Whats the delivery time to the United States?,How long is the delivery time to the US?,0.95683503
-Are there fees for top ups?,Are there any charges for top ups?,0.9724972
-Why are there fees for card usage?,Why is there a fee associated with card use?,0.9705441
-Why have I been charged twice for the same transaction?,Is there a reason to why I was charged twice for a transaction?,0.9729582
-I cannot use my card.,I am unable to use my card.,0.9793127
-How can my friend send me money?,How would my friend be able to send me money?,0.9731523
-where do I request a disposable virtual card?,how do I get a disposable virtual card?,0.9737052
-I made a transaction but did it to the wrong account.,I submitted a transaction but it was for the incorrect account.,0.9500793
+Are there fees for top ups?,Is there any fees for top ups?,0.99535656
+Are there fees for top ups?,Will there be any fees for top ups?,0.98169076
+Why have I been charged twice for the same transaction?,Why was I charged twice for the same transaction?,0.9940666
+How can my friend send me money?,How can my friend send money to me?,0.9943931
+How do I add a card to the app?,How do I add a card on to the app?,0.9954399
+where do I request a disposable virtual card?,How do I request a disposable virtual card?,0.9909259
 What should I do to verify my identity?,What has to be done to verify my identity?,0.9835534
 When will I get my card?,How soon will I get my card?,0.9810183
-Can you assist me with unblocking my PIN? I put it in wrong too many times.,Will you help me unblock my pin after putting in the wrong pin too many times?,0.97678816
-"Please, activate my card",Can you activate my card pls,0.9661778
-What is the cause that the transfer shows as pending?,"Why is my transfer appearing as ""pending""?",0.9687948
+Can you assist me with unblocking my PIN? I put it in wrong too many times.,Please help me unblock my pin which I put the wrong one too many times.,0.9819706
+Is a SWIFT transfer okay?,Is a SWIFT transfer acceptable?,0.9925927
+What is the cause that the transfer shows as pending?,What is the reason a transfer shows as pending?,0.99318004
+What is the cause that the transfer shows as pending?,Why is the transfer showing pending?,0.98700345
+What is the cause that the transfer shows as pending?,What is the reason why the transfer shows as pending?,0.99587435
 How many times can I use a disposable card?,How many times can I use my disposable card?,0.9966533
-My top up was denied in the app.,Why would the app deny my top-up?,0.95814335
-"I have a cheque here, can I use it to top off my account?",Can I use a cheque to top up my account,0.96234876
-Where can I pay with my debit or credit card?,Where do I pay with my debit or credit card?,0.988736
+Where can I pay with my debit or credit card?,Where do I pay with my debit or credit card?,0.9887359
 I want to change my personal details.,I would like to change my personal details.,0.9947021
+My refund doesn't seem to be showing on my statement.,My refund isn't showing up on my statement.,0.9875786
 My refund doesn't seem to be showing on my statement.,Is there a reason my refund isn't showing on my statement?,0.98181736
-I want to set a new PIN,Set a new PIN please.,0.95878315
-How long does it take to process transfers from Europe?,How long do transfers from Europe take?,0.9792627
+I want to set a new PIN,How can I set a new pin.,0.9848494
 What is the cost for an exchange fee?,How much is the exchange fee?,0.98016286
-Why was my payment cancelled?,My payment was cancelled,0.96327865
+Where can I find the top-up verification code?,Where is the top-up verification code located?,0.98054045
 Where can I find the top-up verification code?,Where can I find the top up verification code?,0.9966141
+Where can I find the top-up verification code?,How do I find the top-up verification code?,0.99120235
+Where can I find the top-up verification code?,I need to find the top up verification code,0.98546195
+Where can I find the top-up verification code?,can you tell me where to find the top-up verification code?,0.9930729
+Where can I find the top-up verification code?,Where can i find my top-up verification code?,0.99378526
+Where can I find the top-up verification code?,Where is the top-up verification code?,0.9846725
+Where can I find the top-up verification code?,Can you tell me where to find my top-up verification code?,0.98536783
+Where can I find the top-up verification code?,Where can I find the verification code for a top-up?,0.98889506
+What age do my kids need to be to use your service?,How old do my kids need to be to use your service?,0.9928175
 virtual card is not working for me,virtual card won't work for me,0.98867106
-"Please, how do I order a card?",How to order my card?,0.9717277
+"Please, how do I order a card?",How can I order a card?,0.9857883
+"Please, how do I order a card?",How do I order a card?,0.9909464
 Is it possible to have both a Visa and a Mastercard from you?,Is it possible to obtain both a Visa and a Mastercard from you?,0.98320466
-Where do I order my card?,How to order my card?,0.9641992
-Where do I go if I want to link my new card?,Where do I go to get my new card linked?,0.9729099
-can i do a transfer with swift,Can I transfer using SWIFT?,0.9738761
+Where do I order my card?,Where do I go to order my card?,0.9906807
+Where do I order my card?,Where do I order a card?,0.98163056
 Why can't I activate my card?,I can't activate my card?,0.9827146
-A transfer to an account was not allowed,A transfer was not allowed to an account.,0.9713154
+Is there any place I cannot use my card?,Is there anywhere I can't use my card?,0.9821312
+A transfer to an account was not allowed,The transfer to my account was not allowed.,0.98025256
+How old do I have to be to open an account?,How old do you have to be to open an account?,0.99677503
+How old do I have to be to open an account?,How old must I be to open an account?,0.9916289
+How old do I have to be to open an account?,How old do you need to be to open an account?,0.9925835
 How old do I have to be to open an account?,What age do you have to be to open an account?,0.99028623
-My card does not work,My card don't work.,0.97567725
-I transferred some money but it is yet to arrive.,I transferred some money but it hasn't arrived yet,0.9782838
-I didn't receive all the cash I asked for,I didn't get all the cash I asked for,0.98402953
-Why was the exchange rate incorrect for an item I recently bought?,I recently bought something abroad but the exchange rate is incorrect. Why?,0.96511966
-"I've now been trying to do a really standard transfer 5 times already. What's going on, is your system broken or something?!",I've already tried 5 times to complete a transfer that's just standard. What's the deal? Is your system down at this time?,0.9608416
+My card does not work,My card will not work,0.9834491
+I didn't receive all the cash I asked for,I didn't get all the cash I asked for,0.9840295
 How can I lookup where funds came from?,Is there a way to lookup where funds came from?,0.9907206
-I transferred money and was charged and want to know why.,Why has transferring money resulted in a charge?,0.9510256
-"If I need to do a quick transfer from China, how long should I expect the transfer to take?","If I need to transfer something quick from China, how long does that take?",0.9685144
+How do I change my PIN?,Can you tell me how to change my PIN?,0.98447424
+How do I change my PIN?,How do I change the PIN?,0.98909163
 How do I change my PIN?,How do I go about changing my PIN?,0.9901811
-Why do you require so many details about my identity?,Why do you need all these details about my identity?,0.96613747
-What's with not verifying my Id?,I can't verify my ID. Why?,0.9533305
-Is there currency exchange on this app?,Is it possible to exchange currencies on the app?,0.95745504
-How can I edit my personal details?,Please tell me how to edit my personal details.,0.969594
-What are all the currencies and cards supported to use this?,What are the currencies and cards that are supported with my account?,0.9525105
-Is this where I order a virtual card?,Where do I order a virtual card?,0.96617675
-Why was my ATM transaction cancelled?,Why was my ATM withdrawal cancelled?,0.9601086
-Can I verify a top up?,How do I verify the top-up?,0.9687107
+How do I change my PIN?,Please let me know how to change my PIN?,0.98241514
+How do I change my PIN?,How can I change my PIN?  Help.,0.9886934
+How do I change my PIN?,What do I have to do to change my pin?,0.98221666
+How can I edit my personal details?,How to edit personal details?,0.98837495
+How can I edit my personal details?,How do I edit my personal details?,0.99576604
+Can I verify a top up?,How can I verify my top up?,0.9800187
 Why isn't my virtual card working?,Why won't my virtual card work?,0.9897546
-What is a disposable virtual card?,I would like to know more about what a disposable virtual card is?,0.97780156
-I should have received a refund however it is not showing on my statement,Is there a reason my refund isn't showing on my statement?,0.9526663
+Why isn't my virtual card working?,Is there a reason why my virtual card won't work?,0.9832493
+My app says that I received cash from an ATM and I didn't.,The app says I got cash from an ATM but I didn't,0.9869852
+What is a disposable virtual card?,What are disposable virtual cards?,0.98841876
 How do I unblock my PIN?,Can someone help me unblock my pin?,0.9867635
-My transfer is still coming up as pending.,I did a transfer but it is still pending.,0.96895564
-How does my identity get verified?,How do I verify my identity?,0.9517671
-what is the top up limit,What is my top-up limit?,0.96644485
-Is there a fee for extra cards?,"If I need an additional card, is there a fee for that?",0.95476437
-Why was my payment reversed?,Why was my card payment reversed?,0.97218436
+How do I unblock my PIN?,How can I unblock my PIN?,0.99832034
+How do I unblock my PIN?,What steps do I take to unblock my PIN?,0.98630184
+How do I unblock my PIN?,Help me unblock my PIN.,0.9861168
+How do I unblock my PIN?,"
+How do I unblock my PIN?",1.0
+How do I unblock my PIN?,What do I do to unblock my PIN?,0.9920874
+How do I unblock my PIN?,How to unblock my PIN?,0.9975282
+How do I unblock my PIN?,Guide me on how to unblock my PIN,0.98525286
+How do I unblock my PIN?,Where do I unblock my PIN?,0.9853169
+what is the top up limit,What is the top-up limit?,0.9817935
+Why was my payment reversed?,Why has my payment been reversed?,0.98779035
 How can I withdraw money?,How do I withdraw money?,0.9918429
-I bought some things this morning but the payment shows that it is pending,Why is the payment showing as pending from things I bought this morning?,0.97783697
-Can you tell me how to close my account?,How can I close my account?,0.9665264
+My card is about to expire. What do I need to do?,"My card is about to expire, what do I do?",0.98216856
+I bought some things this morning but the payment shows that it is pending,I bought some things in the morning but the payment shows as pending,0.98614895
 Why can't I top up with a cheque?,Why can't I top up by cheque?,0.99007535
-How do I track my card?,Is there a way to track my card?,0.9754714
+How do I change GBP to AUD?,How do I change my AUD into GBP?,0.98983794
+How do I change GBP to AUD?,"I can't figure out how to change GBP to AUD, what do I do?",0.9869197
 How do I change GBP to AUD?,How do I change to AUD from GBP?,0.99236846
-I was charged for a cash withdrawal.,Why was I charged for cash withdrawal?,0.9613533
-My card is about to expire. How do I get a new one?,"Soon my card will expire, how do I get a new one?",0.9772375
+My card is about to expire. How do I get a new one?,My card is about to expire.  How do I get a new card?,0.992048
 How can I top up automatically?,How do I top-up automatically?,0.99110246
+How can I top up automatically?,Can I top-up automatically?,0.9805348
 How long does it take for a transfer?,How long does a transfer take?,0.9954433
-Is there a transfer fee?,Is there a fee to make a transfer?,0.96662146
+How long does it take for a transfer?,How long does transfers take?,0.980428
 Why do I have to verify the top-up?,why do i have to verify top up?,0.9858208
+Why do I have to verify the top-up?,Why do I need to verify the top-up?,0.9944626
+Why do I have to verify the top-up?,Why do I need to verify a top-up?,0.9851111
+Why do I have to verify the top-up?,why do i need to verify the top up?,0.9876973
+"My phone was stolen, what do I do?","My phone was stolen, what should I do?",0.9950169
+"My phone was stolen, what do I do?",My phone was stolen! What do I need to do?,0.980341
 "My phone was stolen, what do I do?","My phone was stolen, what can I do?",0.99079466
-My actual card isn't working.,My actual card isn't functioning.,0.9866953
+My actual card isn't working.,My actual card isn't functioning.,0.9866954
+Why was I charged an extra fee when paying with my card?,Why was I charged an extra fee when paying with card?,0.99779195
+Why was I charged an extra fee when paying with my card?,"Why, when paying with the card, was I charged an extra fee?",0.9909405
+Why was I charged an extra fee when paying with my card?,"I paid with my card and got charged an extra fee, what's up with that?",0.98461103
 Why was I charged an extra fee when paying with my card?,How come I was charged an extra fee when paying with the card?,0.9941418
-It doesn't let me verify my identity.,It won't let me verify my identity.,0.9936177
+Why was I charged an extra fee when paying with my card?,Why was I charged an additional fee when paying with card?,0.98614514
+Why was I charged an extra fee when paying with my card?,Why was I charged an extra fee when using the card?,0.98006636
+Why was I charged an extra fee when paying with my card?,Why am I charged an extra fee on my card?,0.9811678
+Why was I charged an extra fee when paying with my card?,"There was an extra fee when I paid with my card, why was i charged this extra fee?",0.98703456
+It doesn't let me verify my identity.,I'm not able to verify my identity.,0.9803672
+It doesn't let me verify my identity.,It won't let me verify my identity.,0.99361783
 I have been charged twice,I got charged twice,0.98021215
 My payment was reverted by the app,I did a payment but it was reverted by the app,0.9848383
-How much does it cost to exchange currencies?,What is the cost for currency exchanges?,0.96212125
-i tried to make a transfer to a beneficiary and it didn't go through,Why didn't my transfer to a beneficiary go through?,0.9712019
-I requested a refund and it is missing.,I have a missing refund,0.95284903
+My payment was reverted by the app,why was my payment reverted on the app,0.9853836
+How much does it cost to exchange currencies?,what is the cost for exchanging currencies?,0.98326254
 What things do I need to verify my identity?,What am I going to need in order to verify my identity?,0.9813774
-The conversion rate on the ATM that I used with foreign currency was wrong.,The rate applied to my foreign currency at an ATM was incorrect.,0.97159636
-I would like to reactivate my card.,How do I reactivate my card?,0.9751457
-What do you base your exchange rates on?,What is the basis of your exchange rates?,0.9687965
+What things do I need to verify my identity?,What will I need to verify my identity,0.9820199
+What do you base your exchange rates on?,On what do you base your exchange rates?,0.9956225
 Can I use Apple Pay to top up?,Can I top-up via Apple Pay?,0.98373604
-If I make a transaction can I cancel it?,Can I cancel a transaction?,0.96711075
-"Hi! I was wondering if you can help me. I used the city centre ATM to get some cash, but the machine declined my card. My account shows that transaction is still pending. I didn't receive the money, so please cancel that transaction.","When I used one of the ATMs in the city centre today, I tried to take out some money, but for whatever reason, the machine declined my card. Just checked it out in my account and that amount is still showing as pending! Is there any way that you can cancel this transaction, because I did not receive any money whatsoever from the ATM",0.96463156
-Where is the virtual card?,Where is my virtual card?,0.972224
-What would make a decline message show up during a transfer?,Why would I get a decline message in a transfer?,0.959327
-How much am I charged for a SEPA transfer?,What are the charges for recieving SEPA transfers?,0.96588314
+Can I use Apple Pay to top up?,Can I use Apple Pay to top-up?,0.99587405
+How much am I charged for a SEPA transfer?,What is the charge for receiving a SEPA transfer?,0.9844371
 What's the refund process?,What is the refund process?,0.99469995
-The rate applied to my foreign purchase was incorrect,A foreign purchase I made has the incorrect rate applied to it.,0.9764184
-What information do you need to verify my Source of Funds?,I would like to verify my source of funds.,0.9559069
-What is the age to open an account?,What age do you have to be to open an account?,0.97307795
+There's a cash withdraw on my statement that I didn't make.,There is a cash withdrawal on my statement that I did not make,0.982585
+What is the age to open an account?,At what age can I open an account?,0.98185647
+Is there a way to reset my passcode?,How do I reset my passcode?,0.9883026
+Is there a way to reset my passcode?,How can I go about resetting my passcode?,0.9872688
+Is there a way to reset my passcode?,Is there a way to reset the passcode?,0.99173856
+Is there a way to reset my passcode?,"I want to reset my passcode, how can I do that?",0.9810191
 Is there a way to reset my passcode?,How can I reset my passcode?,0.9911734
+Is there a way to reset my passcode?,Can I reset the passcode?,0.98363054
+Is there a way to reset my passcode?,How can i reset my passcode ?,0.9911734
+Who accepts this card?,Who accepts the card?,0.9862249
+Why is my top up still pending?,I think my top up is still pending?,0.9861837
+Why is my top up still pending?,What is the reason my top-up is still pending?,0.98830706
+Why is my top up still pending?,My top up is pending still,0.98181367
 Why is my top up still pending?,My top up is still pending,0.98457706
-Can you tell me if my top-up has been cancelled?,Seems like my top-up has been cancelled,0.96373564
+Why is my top up still pending?,top up is still pending,0.9814937
+Why is my top up still pending?,Is there a reason that my top-up is still pending?,0.986591
+Why is my top up still pending?,What is the reason that my top-up is still pending?,0.98766077
+Can you tell me if my top-up has been cancelled?,Has my top-up been cancelled?,0.9830034
+Can you tell me if my top-up has been cancelled?,How can I tell if my top-up has been cancelled?,0.98020756
 Is there a maximum i can top up?,need to know if there is a maximum i can top up,0.9851685
-What type of ATMs accept this card?,Where are the ATMs that accept this card?,0.96355796
-For some reason my contactless has stopped working. I don't know what the problem is. What can I do?,I'm confused. My contactless is suddenly not working anywhere that I try to use it. How do I fix it?,0.95021164
-What is the process for activating my card?,What is the process for activating my new card?,0.9682916
-I relocated and need to change my personal details.,I moved and need to change my personal information.,0.973758
+Is there a maximum i can top up?,What is the maximum I can top up?,0.9882873
 I need to change my PIN. Can I do that at a cash machine?,Can I change my pin at a cash machine?,0.98452437
-Why do you require all my identity details?,Why do you need all these details about my identity?,0.9629297
-Why did I not get all the cash I asked for?,I didn't get all the cash I asked for,0.95954525
-Do you accept exchanges to EUR?,Do you allow exchanges of EUR?,0.96806073
-How many disposable virtual cards can I have?,What's the limit for disposable virtual cards?,0.95432484
+How many disposable virtual cards can I have?,How many disposable virtual cards can you have?,0.99578553
 Why is a payment showing up on my card as pending?,Why would my payment for my card show as pending?,0.985409
 I need help activating my new card.,Can I get some help activating my new card?,0.980029
-I have moved.  Where can I update my details?,How can I update my details since I moved?,0.96726537
-"When I made a transfer, there was a fee.  Why?",Why was my transfer charged a fee?,0.96799195
-"Hey I want to buy some crypto but the app doesn't allow me to! What's the issue, I really want to exchange this","Hi, I'm trying to by some crypto and the app isn't allowing it. I really want to exchange this, what am I doing wrong?",0.9665344
-How do I get an actual card?,How do I get a real card?,0.9750087
-I don't think my card payment exchange rate is correct.,The exchange rate from my card payment isn't right.,0.96547353
-"My PIN is blocked, what do I do?","My PIN got blocked, help.",0.977544
-How do I find my card PIN?,Where do I find PIN for my card?,0.9762111
-Why caused my top up to not work?,It looks like my top up didn't work.  Why?,0.9708935
-"I need to top up cash, How do I do it?",How do you top-up using cash?,0.9626714
-Please close my account. I am unsatisfied with your service.,I am not satisfied with your service.  Close my account.,0.9600916
-I think my card payment has been stopped,My card payments have stopped.,0.9541484
-What is the extra  €1 fee in my statement,Can you please explain to me why there is an extra €1 fee in my statement?,0.967166
-Where do I obtain my virtual card?,Where do I get a virtual card?,0.9798553
-Where can I use this card at an ATM?,What ATMs can I use this card at?,0.9701804
-Why didn't my transfer go through?,Why won't my transfer go through?,0.97540843
+I need help activating my new card.,I need assistance with activating my new card.,0.99436706
+What are your currency exchange fees?,What is your currency exchange fee?,0.98628163
+How do I get an actual card?,How do I go about getting an actual card?,0.98837626
+"My PIN is blocked, what do I do?","My PIN has been blocked, what should I do?",0.9926493
+How do I find my card PIN?,Where can I find my card PIN?,0.9834099
+How do I find my card PIN?,Where do I find my card PIN?,0.9902642
+"I need to top up cash, How do I do it?",How do I top up with cash?,0.9822078
+What is the extra  €1 fee in my statement,There is a €1 extra fee in my statement,0.98662996
+I a having trouble proving my identity,I'm having trouble proving my identity,0.9922513
 I a having trouble proving my identity,I'm having trouble with proving my identity.,0.98853225
+I a having trouble proving my identity,I have trouble proving my identity.,0.9838052
+i have not received my card,I haven't received my card.,0.984725
+How can I get my card out of the damn ATM?,How do I get my card out of the ATM?,0.98597723
 How can I get my card out of the damn ATM?,How can I get my card out of the ATM?,0.9862119
-I need to validate the source of my funds.,I need to verify the source of funds.,0.95619774
-"Hi I'm a new customer and tried topping up for the first time today, seems it's not working, the thing shows up as pending since half an hour already! Please fix it!","Hi, I tried topping up for the first time today (I'm a new customer), and the transaction has shown as pending for the last half an hour. Can you fix it?",0.9542052
-What do I need to do to get a refund?,What do I need to do for a refund?,0.982898
-Are both Visa and Mastercard accepted?,Do you accept Visa or Mastercard?,0.9533211
+"Hi I'm a new customer and tried topping up for the first time today, seems it's not working, the thing shows up as pending since half an hour already! Please fix it!","Hello, I'm a brand new customer and tried topping up for the first time today. It has been pending for half an hour and doesn't seem to be working. Please resolve this.",0.98623544
+What do I need to do to get a refund?,What do I need to do for a refund?,0.9828981
+Are both Visa and Mastercard accepted?,Are visa and mastercard accepted,0.98258495
+I cannot get my virtual card to work.,I can't seem to get my virtual card to work.,0.9910005
+I cannot get my virtual card to work.,I can't get the virtual card to work,0.98794794
 I cannot get my virtual card to work.,i cannot get virtual card to work,0.9913276
-"Since my id hasn't been verified, when can I use my account?","My ID verification hasn't gone through yet, but can I use my account anyway?",0.95612466
+I cannot get my virtual card to work.,I can't get my virtual card to work.,0.99657476
 Is there a way to revert my transaction from this morning?,How can I revert a transaction from this morning?,0.9893464
-Do I get charged if i am getting money?,Am I going to be charged for receiving  money?,0.95267767
-Are the top-ups limited?,Do top-ups have limits?,0.951017
+Do I get charged if i am getting money?,Do I get charged if I get money?,0.9927752
+Do I get charged if i am getting money?,Do I get charged if I am receiving money?,0.98180246
 I'm at an ATM and withdrew 30 pounds and was only given 10. What should I do?,The ATM only gave me 10 pounds when I withdrew 30. What do I do?,0.98072517
-Is it possible to verify a top up?,How do I verify the top-up?,0.97395325
+My card won't work.,My card will not work,0.98054945
 My card won't work.,My card don't work.,0.98729056
 What kind of currencies can I use to add money?,Can you tell me what currencies I can use to add money?,0.9816207
-I couldn't get cash at the atm,I couldn't get money from the ATM,0.9731171
-Why is my withdrawal still pending?,"My withdrawal is pending, why?",0.9736433
-How do I use the top up app with my apple watch?,How do I top up using my Apple Watch?,0.95433617
-My refund is missing from my statement.,Why is my refund missing in my statement?,0.9678811
+What kind of currencies can I use to add money?,Which currencies can I use to add money?,0.9918318
 "If I use a European bank card for top up, Do I get charged?",Do you charge if I use a European bank card for top up?,0.9858104
-How long should I expect for the card to arrive?,How long until the card arrives?,0.97317433
+"If I use a European bank card for top up, Do I get charged?",Do I get charged if I top up with my European bank card?,0.98680705
+How do I report a stolen card?,I need to report a stolen card,0.9800668
 What do you need to verify my identity?,What am I going to need in order to verify my identity?,0.9811311
-I can't get my card to work.,How can I get my card to work?,0.9699678
-Are there charges for receiving a SEPA transfer?,Is there a charge for SEPA transfers?,0.97949606
-Someone else may be using my card.  There are transactions I don't recognize.,I have transactions that I don't recognize - I think someone is using my card.,0.9827906
+What do you need to verify my identity?,What will I need to verify my identity,0.98608184
+Are there charges for receiving a SEPA transfer?,What are the charges for receiving a SEPA transfer?,0.98379135
+Someone else may be using my card.  There are transactions I don't recognize.,I have transactions that I don't recognize - I think someone is using my card.,0.98279047
+Why is the cash deposit not showing up in my account?,Why isn't my cash deposit showing up in my account?,0.9920758
 Why is the cash deposit not showing up in my account?,Why did the cash deposit not show up in my account?,0.98820084
 Why was my card payment declined?,Why did my card payment get declined?,0.99210024
-How many disposable cards can I own?,How many disposable cards am I allowed to have?,0.9726428
-"I have one of your cards already, how do I link it?",How do I link one of your card that I already have?,0.9615124
+Why was my card payment declined?,"My card payment has been declined, why?",0.9839046
+Why was my card payment declined?,Why would a card payment be declined?,0.98124635
+Why was my card payment declined?,Why was the payment on my card declined?,0.992
+Why was my card payment declined?,What could the reason be that my payment card was declined?,0.9828572
+Why was my card payment declined?,I had a card payment that was declined.  Why?,0.9847088
+Why was my card payment declined?,How come my card payment has been declined?,0.98250127
+How many disposable cards can I own?,How many disposable cards can you own?,0.9953388
+Do I need to verify my identity?,Must I verify my identity?,0.98719
+Why was I charged a fee for a transfer?,"I was charged a fee for the transfer, but can you tell me why?",0.9858844
 Why was I charged a fee for a transfer?,why was i charged a fee to transfer,0.99124515
-What does it mean when my top up is saying  still pending?,My top up says it is still pending,0.9657452
+Why was I charged a fee for a transfer?,"I was charged a transfer fee, why is that?",0.9849739
+Why was I charged a fee for a transfer?,Why was my transfer charged a fee?,0.98977566
+Why was I charged a fee for a transfer?,Why did I get charged a fee for my transfer?,0.9908525
 What places can I use my card?,In what places can I use my card?,0.9964384
-The exchange rate for my withdrawal isn't correct and doesn't match the actual exchange rate.,the exchange rate for my withdrawal is wrong,0.96330017
+Can you tell me the limits for top ups?,Tell me about the limit for top ups.,0.9818616
 Can you tell me the limits for top ups?,Can you tell me the limit for top ups?,0.9851686
-How do I top up my card?,How do I top up by card?,0.97435373
-What's the deal? My card was just denied for top up. Why is it not going through?,My credit card was just denied for top up! Can you tell me why this happened and what's going on?,0.9603777
-how come my transfer didn't work,Is there a reason behind why my transfer did not work?,0.9666526
+How do I top up my card?,What do I do to Top up my card?,0.9812218
+How do I top up my card?,How do I top up on my card?,0.98986
+How do I top up my card?,How do I top up using my card?,0.9810531
+Why would I be charged more than once for the same transaction?,Why have I been charged more than once for the same transaction?,0.9920197
+how come my transfer didn't work,My transfer didn't work how come?,0.9873994
 Why was my card payment cancelled?,Why would my card payment be cancelled?,0.9894065
-How can someone send me money?,How does one send me money?,0.9611037
-"I received my new card, how is it activated?",How do I activate my new card I just got?,0.9575572
-"When I put the wrong pin too much, I got blocked, so can you help me unblock my pin","
-I put the wrong pin too many times and now it is blocked. Can you help me unblock it?",0.968533
-Can you help me sign up for a virtual card?,How can I sign up for a virtual card?,0.9729528
-Am I able to change my PIN at any cash machines?,Can I change my pin at a cash machine?,0.9786746
+Why was my card payment cancelled?,Why is my card payment cancelled?,0.99184406
+Why was my card payment cancelled?,Can you tell me why my card payment was cancelled?,0.9875003
+Why was my card payment cancelled?,My card payment was cancelled.  Why?,0.99403167
+Am I able to change my PIN at any cash machines?,Can I change my PIN at any cash machines?,0.9945762
+Am I able to change my PIN at any cash machines?,Am I able to change my PIN at certain cash machines?,0.99200153
+Hello I changed my mind and really need a refund on one of things I bought recently. Can you please cancel the transaction and get my money back. Please it's urgent.,Hello I changed my mind and really need a refund on one of things I bought recently. Can you please cancel the transaction and get me my money back. Pls it's urgent,0.9967805
+Hello I changed my mind and really need a refund on one of things I bought recently. Can you please cancel the transaction and get my money back. Please it's urgent.,Hello I changed my mind and really need a refund on something I bought recently. Can you please cancel the transaction and get me my money back. Please it's urgent.,0.99677265
 Hello I changed my mind and really need a refund on one of things I bought recently. Can you please cancel the transaction and get my money back. Please it's urgent.,Hello I changed my mind and want a refund on one of things I bought recently. Can you please cancel the transaction and get me my money back. Please it's urgent.,0.9968388
-"I would like to know why my payment is still pending, can you help?",Is there a reason my payment is still pending?,0.9765259
-Send me a physical card,I would like a  physical card sent to me.,0.9587455
-The transfer I did hasn't arrived,My transfer hasn't arrived,0.9700028
+"I would like to know why my payment is still pending, can you help?",Can you explain why my payment is still pending?,0.98781765
 Do you have any limit on the auto top-up?,Are there any limit on the auto top-up?,0.9881581
-I need my card as soon as possible.,My card is needed soon,0.9571165
-There is a transaction for $1 and I don't know why it was charged.,Why was I charged $1 in a transaction?,0.9535315
-What all is needed to verify the top-up card?,How do I go about verifying the top-up card?,0.9774219
-There is a direct debit I do not recognise in my statement,I have an unfamiliar direct debit in my statement.,0.96000737
-"Salary in GBP has been received, does it need to be configured elsewhere?","My salary is received in the form of GBP. Is it necessary to configure this? If so, where is this done?",0.9698655
-"I would like an account for my children, how do I go about doing this?",I'd like to open an account for my children. How can I do that?,0.95990074
-Why can't I transfer to a beneficiary?,What is the reason I couldn't do a transfer to a beneficiary?,0.97236514
+"Salary in GBP has been received, does it need to be configured elsewhere?",Salary in GBP has been received. Does it need to be configured into another place?,0.9863341
+Help!  I can't find my card.,I can't find my card! Can you help?,0.98511183
+Help!  I can't find my card.,I can't find my card!  What should I do?,0.9804139
+Why can't I transfer to a beneficiary?,Why can I not do a transfer to a beneficiary?,0.98284316
+Why can't I transfer to a beneficiary?,Why couldn't I transfer to a beneficiairy?,0.9873338
+why was my transfer declined,Why did my transfer get declined?,0.9827671
+why was my transfer declined,My transfer was declined. What might the reason be?,0.98230654
+why was my transfer declined,how come my transfer declined,0.983907
 why was my transfer declined,"My transfer was declined, why is that?",0.98337513
-How do I order a new card before It expires?,How do I order a new card if my current one is about to expire?,0.97134686
+why was my transfer declined,My transfer was declined. Why did this happen?,0.98218703
 "
 Which ATMs accept this card?",Where are the ATMs that accept this card?,0.98256373
-The ATM ate my card.,atm ate my card,0.97551847
 My phone was stolen,My phone has been stolen.,0.98389935
-"I would like to exchange currencies, but is there an extra charge to do so?",Is there an extra charge to exchange different currencies?,0.97401154
-Why did my transfer fail?,Can you please explain why my transfer failed?,0.9724976
-Why wasn't I able to transfer to another account?,Why can't I transfer to another account?,0.98193705
-May I choose between Visa and Mastercard?,Do you let me choose between Visa and Mastercard?,0.97732824
-How do I go forth on transferring money into my account?,How do I transfer money into my account?,0.969109
+Why wasn't I able to transfer to another account?,Why can't I transfer to another account?,0.981937
+May I choose between Visa and Mastercard?,Can I pick between Visa and Mastercard?,0.983791
+May I choose between Visa and Mastercard?,Can I choose between Mastercard and Visa?,0.99412686
+May I choose between Visa and Mastercard?,Can I choose between Visa or MasterCard?,0.99167186
+May I choose between Visa and Mastercard?,Can I choose between Visa and Mastercard?,0.99482554
+Why isn't my top up showing on my wallet?,Could you tell me why my top up isn't showing in my wallet?,0.9836205
 Why isn't my top up showing on my wallet?,Why is my 'top up' not showing up in my wallet?,0.9856116
+What steps do I take to verify my identity?,What are the steps to verify identity?,0.98338914
+What steps do I take to verify my identity?,Please tell me the steps to verify my identity.,0.98189247
 What steps do I take to verify my identity?,How do I go about verifying my identity?,0.9813474
-can i top up with apple pay,Can I top-up via Apple Pay?,0.97950625
+can i top up with apple pay,Am I able to top up with Apple Pay?,0.9855605
+can i top up with apple pay,can I top up an apple pay?,0.980639
+How do I go forth verifying my top-up card?,How can I verify my top-up card?,0.9926821
+How do I go forth verifying my top-up card?,Can you show me how to verify the top-up card?,0.98306334
+How do I go forth verifying my top-up card?,How can I verify the top-up card?,0.9872151
+How do I go forth verifying my top-up card?,How to verify top up card?,0.98469347
+How do I go forth verifying my top-up card?,How do I verify the top-up card?,0.9894059
+How do I go forth verifying my top-up card?,"I'm trying to verify my top up card, how do I do that?",0.98573077
+How do I go forth verifying my top-up card?,Where do i verify a top-up card?,0.9823308
 How do I go forth verifying my top-up card?,How do I go about verifying the top-up card?,0.992894
-Can I get a real card?,How do I get a real card?,0.9597235
-I want to know where the funds come from.,How do I know where the funds come from?,0.96029794
-Why did my my transfer get declined?,My transfer was declined. Why did this happen?,0.9847319
-What kind of currency can I hold money in?,What country's money can I hold currency in?,0.959217
-Is there an additional charge for topping up using a European card?,Will I be charged a fee for topping up using a European card?,0.96826005
+Can I get a real card?,Is it possible to get a real card?,0.9823063
+Why did my my transfer get declined?,Why has my transfer been declined?,0.9806305
+Why did my my transfer get declined?,How come my transfer got declined,0.9823737
+Why did my my transfer get declined?,What would be a reason my transfer got declined?,0.98268914
+Why did my my transfer get declined?,Why did my transfer get declined?,0.99788046
+Why did my my transfer get declined?,"My transfer was declined, why is that?",0.98332185
+Why did my my transfer get declined?,My transfer was declined. Why did this happen?,0.98473173
 What can you do to unblock my pin?,Can someone help me unblock my pin?,0.9846966
-I no longer have my passcode.,I lost my passcode.,0.9743969
-Hello. I checked my transactions and saw I was double charged on my card for a restaurant visit. I would like to get my money back.,Hello. I checked my transactions and saw I was double charged for a restaurant visit. Can I get my money back?,0.97640455
+What can you do to unblock my pin?,How can I unblock my PIN?,0.9885179
+What can you do to unblock my pin?,What steps do I take to unblock my PIN?,0.984198
+What can you do to unblock my pin?,Help me unblock my PIN.,0.9843116
+What can you do to unblock my pin?,"
+How do I unblock my PIN?",0.98781574
+What can you do to unblock my pin?,What do I do to unblock my PIN?,0.9937763
+What can you do to unblock my pin?,How to unblock my PIN?,0.98602664
+What would be the reason there's an extra fee on my statement?,Why is there an extra fee on my statement?,0.9886551
+What would be the reason there's an extra fee on my statement?,What is the reason for the extra fee on my statement?,0.9917145
+What would be the reason there's an extra fee on my statement?,Why does my statement have an extra fee?,0.98304284
+What would be the reason there's an extra fee on my statement?,Why do i have an extra fee on my statement?,0.98711157
+What would be the reason there's an extra fee on my statement?,"There's an extra fee on my statement, why is that?",0.98797965
 What would be the reason there's an extra fee on my statement?,Is there a reason there's an extra fee on my statement?,0.991502
+What would be the reason there's an extra fee on my statement?,How come there is an extra fee on my statement?,0.98754615
+I'm having trouble verifying my ID.,I am having some difficulty verifying my id.,0.98978746
 I'm having trouble verifying my ID.,I am having trouble verifying my id.,0.9975527
 My refund is missing,I have a missing refund,0.98152447
-What does a pending transaction mean?,I don't know what pending transaction means.,0.9686717
-how to change name,How do I change my name?,0.9581541
-How can I order virtual cards?,How to order a virtual card,0.97837174
-What is the limit to top up?,is there a limit to top up,0.9754851
+What is the limit to top up?,What's the limit to how much I can top up?,0.98029613
+Which cash machines will allow me to change my PIN?,What cash machines will let me change my PIN?,0.9973941
+Which cash machines will allow me to change my PIN?,At what cash machines can I change my PIN?,0.98961425
+Which cash machines will allow me to change my PIN?,"
+Which cash machines will allow me to change my PIN?",1.0000002
 There is a payment in the App that is not mine.,There is a payment that is not mine in the App.,0.99377877
-"Where can I find the ""auto-top"" feature?",I know there's an auto-top option but I can not locate it when I look?,0.9604044
 Exchange rate for my cash withdrawal is wrong,Why is the exchange rate wrong for my cash withdrawal?,0.9805746
-Oh no!  I lost my card!  Help!,My card is lost!  Please help me!,0.9644902
-what's the process for getting a disposable virtual card?,How can I go about getting a disposable virtual card?,0.97786397
-Can I get a card despite the fact I'm not in the UK?,Can I get a card although I'm not in the UK,0.9732935
-I have been charged with a fee for paying with my card.,I got a fee when paying with my card,0.95479023
-How do I cancel a previous purchase,I would like to cancel my previous purchase.,0.95790243
-How are you determining your exchange rates?,How do you determine your exchange rates?,0.9821296
-Why was my Payment declined,Why was the payment on my card declined?,0.9635626
-Is my cash withdrawal pending?,Why is my cash withdrawal still pending?,0.96711385
-I attempted to get cash but was declined.,Why did I get declined when trying to get cash?,0.9574984
+Exchange rate for my cash withdrawal is wrong,I found the exchange rate for my cash withdrawal is wrong,0.98456615
+I have been charged with a fee for paying with my card.,I got charged for with a fee for paying with my card.,0.9848317
+How are you determining your exchange rates?,How do you determine your exchange rates?,0.9821297
+Why was my Payment declined,Why did my payment get declined?,0.9810575
 Why was I charged extra for transferring money?,Why was there an extra charge when I transferred money?,0.9803144
+Why was I charged extra for transferring money?,When I was transferring money I was charged extra why?,0.98563755
 My phone was stolen yesterday.  What should I do?,Help!  What should I do?  My phone was stolen yesterday.,0.9908581
-What happened to where my top-up was canceled?,What happened to my top-up? I think it was cancelled.,0.96486676
-What do i have to do to change my name?,How do I change my name?,0.9592139
-The app denied my top-up,Why would the app deny my top-up?,0.975484
-"Would I be able to get another card for my account, so I could give one to my daughter?",Is it possible for me to give my daughter a second card for this account?,0.9559716
-Is it possible to tell if my top up has reverted?,What if my top up is reverted?,0.9500502
+The app denied my top-up,Why did the app deny my top-up?,0.98060983
+Is it possible to tell if my top up has reverted?,How do I tell if my top up was reverted?,0.98725164
+What cards and currencies are supported?,Which cards and currencies are supported?,0.99652743
 What cards and currencies are supported?,Can you tell me which cards and currencies are supported?,0.98373675
-I want to close my account,I want to close my account now.,0.957407
-There's a direct debit on my account that I didn't authorize,There was a direct debit from my account and I didn't authorise it,0.9766369
-How can I unlock the pin?,How do I go about unlocking a pin?,0.9747199
-I tried to make a cash withdrawal and it was declined. Why did this happen?,My cash withdrawal was declined.  Why?,0.9693688
-"For some reason, the virtual card won't work for me.",virtual card won't work for me,0.9792562
+There's a direct debit on my account that I didn't authorize,There is a direct debit payment on my account that I didn't authorize.,0.98049664
+How do I order a virtual card?,Where do I order a virtual card?,0.9812472
 How do I order a virtual card?,How to order a virtual card,0.9897897
-Where is my card accepted?,Where is this card accepted?,0.975971
+How do I order a virtual card?,How can I go about ordering a virtual card?,0.9860053
 price of physical card,What is the price for a physical card?,0.98522866
-does it cost to exchange currencies?,Is there an additional cost to exchange currencies?,0.95633614
-Do I get a choice between Visa and Mastercard?,Do you let me choose between Visa and Mastercard?,0.9722664
-What is the top-ups limit?,Can you tell me the limit for top ups?,0.96978676
-How long will it take to activate my new card?,How long does it take to activate my card?,0.9717401
-locations to withdraw money,What locations allow me to withdraw money?,0.97283417
-What is the purpose of the extra fee that is showing up on my statement?,Why do I see an extra fee on my statement?,0.97817874
-How long does it take for a transfer to get to a recipient?,How long does a transfer take?,0.9531854
-Is there any way to Auto top-up?,Is there a auto top-up option?,0.9785048
+Do I get a choice between Visa and Mastercard?,Can I choose between Mastercard and Visa?,0.9851932
+Do I get a choice between Visa and Mastercard?,Can I choose between Visa or MasterCard?,0.9823636
+Do I get a choice between Visa and Mastercard?,Can I choose between Visa and Mastercard?,0.98565394
+What is the top-ups limit?,what is the limit for top-ups?,0.98882455
+What is the top-ups limit?,How much is the limit for top-ups?,0.98037237
+Do I have to verify my identity?,Must I verify my identity?,0.98328316
+Is there any way to Auto top-up?,How do I auto top-up?,0.98516136
+Is there any way to Auto top-up?,Is it possible to top-up automatically?,0.9816172
 Is there any documentation needed for the identity check?,What documentation is needed for the identity check?,0.9812193
+Is there any documentation needed for the identity check?,"For the identity check, do I need any kind of documentation?",0.9856333
 "I need to transfer money into my account, how do I go about doing this?","I need to transfer money into my account, HOW?",0.981349
+Help me set up a new PIN?,Please help me set up a new PIN.,0.9900398
 What should I do if the passcode doesn't work for me?,What should I do if my passcode won't work?,0.99169266
-I would like a refund for something I bought,I would like my refund for this item I bought.,0.95963633
-My card has been swallowed by an ATM,An ATM swallowed my credit card!,0.9555793
-How do your exchange rates work?,How do the foreign exchange rates work?,0.9558543
+What should I do if the passcode doesn't work for me?,What can I do if my passcode won't work?,0.98934066
+I made a payment but the app reverted the payment.,The app reverted the payment I made.,0.9817126
 I made a payment but the app reverted the payment.,I did a payment but it was reverted by the app,0.98649
 Why was my transfer charged fees?,Why was my transfer charged a fee?,0.9854646
-So the transfer finally worked but now it's been pending for quite a long time. How long do you expect me to wait for it? It's quite urgent,"How long do you expect me to wait for the transfer? It finally worked out, but has been pending for a long time and it's quite urgent.",0.9790045
-Can I verify a top-up and what card is used?,How can I verify the top-up card?,0.965384
-How can I top up with Google Pay?,How can I top up using google pay?,0.99389374
-"There are a few transaction that I don't recognize, I think someone managed to get my card details and use it.","There are transactions that I don't remember making, i think someone might have gotten my card details and is now using it.",0.96934736
-Can I get paid in another currency?,Can I receive payments in another currency?,0.95043886
-Could you explain why my top-up has gone through yet?,"My top-up hasn't gone through, what happened?",0.9558004
-My transfer to beneficiary didn't go through,Why didn't my transfer to a beneficiary go through?,0.97366655
-How can I get my physical card to work?,Why is my physical card not working?,0.97065747
-My cash withdrawal charged me the wrong exchange rate,I was charged an incorrect exchange rate for a withdrawal.,0.96493137
-how do i get a card if i am in the usa,can i get a card if I live in the usa?,0.9520973
-Activating my card,Activate my card,0.95438355
-I asked for $100 cash but only got $20?,I requested $100 but only got $20,0.9514841
-Do I need to verify my identity to use my account?,Is identity verification required for me to use my account?,0.97600603
-Need help with my card. It's not working.,My card is not working.,0.9630964
+How can I top up with Google Pay?,How do i top up my google pay?,0.9831296
+How can I top up with Google Pay?,How can I top up using google pay?,0.9938938
+"There are a few transaction that I don't recognize, I think someone managed to get my card details and use it.","There are a few transaction that I don't recognize, I think someone managed to get my card details and use it.
+",1.0000001
+How can I get my physical card to work?,What can I do to make my physical card work?,0.9858739
+How do I get my disposable virtual card to work?,Why isn't my disposable virtual card working?,0.983837
 How do I get my disposable virtual card to work?,I cannot get my disposable virtual card to work,0.98760915
-Why am I having trouble verifying my id?,How come I can't seem to verify my id?,0.9840684
+Why am I having trouble verifying my id?,Why isn't my id verifying?,0.9834092
+Why am I having trouble verifying my id?,How come I can't seem to verify my id?,0.9840685
+I would like to revert a transaction I did this morning,I would like help to revert a transaction I did this morning,0.99029756
 I would like to revert a transaction I did this morning,I want to revert a transaction I did this morning,0.9972091
-I would like to delete my account please.,"I would like to delete my account now, please.",0.97728807
+I would like to revert a transaction I did this morning,I wanna revert a transaction i did this morning.,0.9844924
+My top up didn't work.,My top-up didn't work.,0.9895743
 My top up didn't work.,"Um, my top up didn't work",0.99183637
-Contactless isn't working for me,Why is my contactless not working?,0.968916
-What are the top up charges for US cards?,Are there top up charges for US cards?,0.9664496
-I was declined when I tried to get cash.,Why did I get declined when trying to get cash?,0.95887774
-Is there anything I need to do since my phone was stolen?,What do I do if my phone was stolen?,0.95962507
-My money transfer has not arrived.,I transferred some money but it hasn't arrived.,0.95714664
-Can I change from one currency to another?,How can I change to another currency?,0.9701773
-Do you work with all fiat currencies?,Will you work with any fiat currencies?,0.9559814
+What are the top up charges for US cards?,What are the top up charges for all US cards?,0.9865736
+What are the top up charges for US cards?,What top up charges are there for US cards?,0.9904133
 Is there a way to top-up automatically?,How do I top-up automatically?,0.9847683
-Can I do a bank transfer to put additional money in my account because I am out of money?,I am out of money in my account and I was wondering if I could do a bank transfer is put more in it?,0.95406836
-How can I tell where my funds came from?,Where can I see where my funds came from?,0.9859367
+Is there a way to top-up automatically?,Is there a function where I can top-up automatically?,0.98387027
+Is there a way to top-up automatically?,Can I top-up automatically?,0.9870381
+Is there a way to top-up automatically?,Is it possible to top-up automatically?,0.99382156
+How can I tell where my funds came from?,How do I find out where my funds came from?,0.9896314
+How can I tell where my funds came from?,Where can I see where my funds came from?,0.98593676
+How can I tell where my funds came from?,How do I know where my funds come from?,0.98251474
+How can I tell where my funds came from?,Can you tell me how to tell where my funds come from?,0.9805464
+How can I tell where my funds came from?,How can I know where did my funds come from?,0.9906327
 reason i need to verify top up,is there a reason i need to verify top up,0.9821986
-Where is the card PIN?,Where is my card PIN?,0.9830721
-I need a new passcode.,Where can I get a new passcode?,0.9575053
-I've been charged more than once for the same transaction,I was charged more than once in a single transaction,0.9616666
-I have a problem!  The ATM stole my card!,The ATM stole my card!,0.9773797
-show me how to top up with my card,How do I top up by card?,0.9545766
-Why does my account have a pending cash withdrawal?,"Cash withdrawal has been pending, why is it so?",0.9690738
-got married and need to change name,"I need to change my name, since i just got married",0.9531578
+Where is the card PIN?,Where is my card PIN?,0.98307204
+I need a new passcode.,Need a new passcode.,0.9918268
+Where is the virtual card located?,Where is my virtual card located?,0.98405784
+show me how to top up with my card,Can you tell me how to top up on my card?,0.9820969
+got married and need to change name,I got married and need to change my name.,0.98161936
+"I have a card payment that was declined, but why?","My card payment has been declined, why?",0.980842
+"I have a card payment that was declined, but why?",Why would a card payment be declined?,0.98041594
 "I have a card payment that was declined, but why?",Why was the payment on my card declined?,0.9863111
-I have a 1 euro fee on my statement.,Why is there a 1 euro fee on my statement?,0.95083976
-Can my card be used everywhere?,Can I use my card wherever I want?,0.9644549
-has my top-up has been cancelled,Seems like my top-up has been cancelled,0.9737179
-Some idiot stole my card.,Someone stole my card!,0.956348
+"I have a card payment that was declined, but why?",I had a card payment that was declined.  Why?,0.99420893
+I would appreciate it if I could get an item refunded,I would like it if I could get an item refunded,0.98361135
+has my top-up has been cancelled,Has my top-up been cancelled?,0.9890686
+"my daughter needs a card, how do i add her?","daughter needs card, how do i add her",0.9902812
 Could I open an account for my children?,Could I open an account for children?,0.9823838
-There was an error in exchange rate for my cash withdrawal,you got the exchange rate wrong for my cash withdrawal,0.9542606
-Top up on my Google Pay isn't working.,Google pay top up not working.,0.9818546
-What is the limit to a top-up?,Tell me if there is a limit to top-up.,0.976974
+Could I open an account for my children?,Can I open an account for my children?,0.996738
+Could I open an account for my children?,Am I able to open an account for my children?,0.9833697
+Top up on my Google Pay isn't working.,My Google pay top up isn't working.,0.9865835
+Top up on my Google Pay isn't working.,My Google pay top up isn't working. Help.,0.9837631
+Top up on my Google Pay isn't working.,Google pay top up not working.,0.9818548
+What is the limit to a top-up?,what is the limit for top-ups?,0.980135
+What is the limit to a top-up?,What is the top-up limit?,0.9803487
 What exchange rate do you use?,What exchange rates do you use?,0.9843534
-How do people send me money?,How does one send me money?,0.9515037
 Tell me if there are any top-up limits?,Are there any top-up limits?,0.98815215
-Do you use Mastercard or Visa?,Are you Visa or Mastercard?,0.9611402
-"If you send me more cards, are there any charges?",Will there be a charge for sending out more cards?,0.95244
+Tell me if there are any top-up limits?,Are there any top-up limits involved?,0.9804529
+Do you use Mastercard or Visa?,"Please tell me, do you use Visa or Mastercard?",0.9903435
+Why do you keep declining my transfers?it was always been working really well so far but when I tried to buy something just now the card got declined . I tried couple of times already  but same thing is happening.,"Why do you keep declining my transfers? It's been working well so far, but when I just tried to buy something, the card got declined. I tried it a few times, but same thing happened every try.",0.993505
+Why do you keep declining my transfers?it was always been working really well so far but when I tried to buy something just now the card got declined . I tried couple of times already  but same thing is happening.,Why do you keep declining my transfers? it's always been working really well so far but when I tried to buy something just now the card got declined . I tried couple of times already  but same thing is happening .,0.9989382
+Why do you keep declining my transfers?it was always been working really well so far but when I tried to buy something just now the card got declined . I tried couple of times already  but same thing is happening.,"It seems you keep declining my transfers. Before, it's always worked very well.Just now when I tried to buy something the card was declined. I tried more than once and it was the same thing each time.",0.98384744
 Why do you keep declining my transfers?it was always been working really well so far but when I tried to buy something just now the card got declined . I tried couple of times already  but same thing is happening.,"Why do you keep declining my transfers? it's always been working really well so far but when I tried to buy something just now the card got declined, I tried couple of times already  but same thing is happening.",0.99808955
-What do I do if I forget my passcode?  Because I did.,I forgot my passcode. Now what?,0.9560067
-Why don't I see my top up in my wallet?,Why is my 'top up' not showing up in my wallet?,0.9757482
-Is it possible to open an account for my children?,Could I open an account for children?,0.9727371
-"I want to withdraw money, where can I go?","
-Where can I withdraw money from?",0.9788197
-My card is about to expire.,My card is almost going to expire.,0.96789265
-Why hasn't my transfer gone through yet?,Why has my transfer not arrived yet?,0.9562887
+Is it possible to open an account for my children?,Can I open an account for my children?,0.9919241
+Is it possible to open an account for my children?,Am I able to open an account for my children?,0.9889717
+Is it possible to top up with Apple Pay?,Am I able to top up with Apple Pay?,0.9857403
 Is it possible to top up with Apple Pay?,Can I top-up via Apple Pay?,0.9854313
-Can I use any currency to add money?,What currency can I use to add money?,0.9695534
-I would like to get help from someone with activating my card.,Can someone assist me with activating my card?,0.9570278
-How long until my card is delivered?,How long until the card arrives?,0.96169615
+Is it possible to top up with Apple Pay?,can I top up an apple pay?,0.9805775
+Are there fees for adding money using an international card,Is there a fee to add money to an international card?,0.9811641
+Are there fees for adding money using an international card,"If I add money with an international card, are there any fees?",0.98545843
+Are there fees for adding money using an international card,What fees are there for adding money using an international card,0.99224794
 Are there fees for adding money using an international card,Are there fees for adding money with an International card?,0.99298155
-My top-up isn't working.,My top up doesn't work,0.97680473
-How can I top-up my card?,How do I top up by card?,0.9657841
-"I cant find my card, it's gone.","I can't find my card, it is lost.",0.9635967
-Why hasn't my top-up been completed?,Why is my top up not completing?,0.96456087
-I need to change my name since I got married,Since I just got married I need to change my name.,0.97065365
-"I'm not sure why my card payment was cancelled, can you find out why?",I think my card payment was cancelled. What happened?,0.9613434
-What is the necessity of verifying the top up?,What is the significance of verifying the top-up?,0.9677112
-My card payment is pending.,The payment on my card shows as pending.,0.96814615
-I was expecting my new card and am wondering why I haven't received it yet?,Can you tell me why I haven't received my new card yet?,0.9765167
-Can you help my fix my contactless?,How can I fix my contactless?,0.97241265
+Are there fees for adding money using an international card,Are there any fees if I want to add money using an international card?,0.9918954
+My top-up isn't working.,My top-up is not working. Why is that?,0.98603237
+How can I top-up my card?,How do I top up on my card?,0.9802661
+How long will it take for my ID to verify?,How long does it take for my id to verify?,0.9943134
+I need to change my name since I got married,after i got married i need to change my name,0.9842139
+I need to change my name since I got married,"Since I got married, I need to change my name.",0.983585
+"I'm not sure why my card payment was cancelled, can you find out why?",Can you tell me why my card payment was cancelled?,0.9813533
+What is the necessity of verifying the top up?,Why is it necessary to verify the top up?,0.9810165
 What can I do to verify my identity?,How do I verify my identity?,0.9817556
-The ATM didn't let me get any cash,The ATM didnt let me get cash,0.9648836
-I want information about the source of funds.,I want to know the source of my funds.,0.95448816
-"I have a disposable virtual card here, so would you tell me what to do with it?",What can I do with a disposable virtual card?,0.95477843
-Is it permissible to hold money in multiple currencies?,Am I allowed to hold money in multiple currencies?,0.9731947
-Paying in card resulted in a fee,I got a fee when paying with my card,0.9610087
-The application reverted my top-up.,My top-up was reverted by the app.,0.9707227
-How do i cancel my transaction?,How do I go about cancelling a transaction?,0.9767096
-My card was used without my permission.,Someone used my card without my permission.,0.97953945
-Can am I able to exchange currencies?,Is it possible to exchange currencies?,0.97276574
-Can it automatically top-up money if there isn't much left?,"If there isn't a lot of money left, will it automatically top-up money?",0.96050215
-I can't pull my card out of the ATM. Help me.,I cannot get my card out of the ATM.,0.97301936
-My card payment did not work.,My card payment doesn't work.,0.97695756
-I'd rather get a Mastercard,"Given a choice, I'd rather have Mastercard.",0.9594077
-Where's the verification code for the top-up card?,Where is the top-up card verification code?,0.9873113
+What can I do to verify my identity?,How can I verify my identity?,0.9860227
+What can I do to verify my identity?,What has to be done to verify my identity?,0.9812981
+How do i cancel my transaction?,How do I cancel a transaction?,0.99263287
+My card payment did not work.,My card payment didn't work,0.98586977
+Where's the verification code for the top-up card?,I have a top up card. Where is the verification code?,0.98041284
+Where's the verification code for the top-up card?,Where can I find the verification code for the top up card?,0.9822897
+Where's the verification code for the top-up card?,Where is the top-up card verification code?,0.9873114
+I can not find my card pin.,i cannot find my card PIN,0.992814
 I can not find my card pin.,I can't find the card PIN.,0.98283947
-Why is my card not working?,Why won't my card work.,0.96763843
-i want to track the card you sent,Can I track the card you sent to me?,0.9796138
-How do I open up an account for my child?,I want to open an account for my child.,0.9584435
-Please explain to me the circumstances in which my card payment would be reverted?,Why would my card payment be reverted?,0.9515327
-Using an ATM caused me to incur an additional fee. Why?,Why did using an ATM cause me to be charged an additional fee?,0.97115004
+i want to track the card you sent,I would like to track the card you sent to me.,0.9833671
 In exchange for top ups will you take fees?,I was wondering if you will take any fees in exchange for top ups?,0.9817277
+What will I need for identity verification?,What do you require for identity verification?,0.9813386
 What will I need for identity verification?,What do I need for the identity verification?,0.9892787
+What will I need for identity verification?,What is needed for identity verification?,0.9806789
 Is there a fee for exchanging foreign currencies?,Are there any fees when exchanging to foreign currencies?,0.9810905
+Why did the app deny my top up?,Why did the app deny my top-up?,0.99308443
 Why did the app deny my top up?,Why would the app deny my top-up?,0.9879476
-I moved.  Where do I update my details?,How can I update my details since I moved?,0.96350366
-I have exceeded the number of times I can try my PIN,I have exceeded the number of PIN attempts,0.9510364
+I want to get a disposable virtual card.,How do I get a disposable virtual card as well?,0.9814149
+I want to get a disposable virtual card.,how do I get a disposable virtual card?,0.9809764
+I want to get a disposable virtual card.,Please can i get a disposable virtual card as well?,0.9808584
+I want to get a disposable virtual card.,I need to get a disposable virtual card?,0.98794186
+I want to get a disposable virtual card.,How can I get a disposable virtual card?,0.98217106
+I want to get a disposable virtual card.,Can I get a disposable virtual card?,0.98385894
 I want to get a disposable virtual card.,I need a disposable virtual card.,0.98608726
-Send my card as soon as you are able to.,Please send my card as quickly as possible.,0.95526755
-I need my funds verified.,I need to verify my funds.,0.97188103
-Can I receive a new card while I am in China?,Can I get a new card in China?,0.9654486
-Why couldn't I complete a transfer?,Why can't I complete my transfer?,0.9797946
+I want to get a disposable virtual card.,Is there any way i get a disposable virtual card as well?,0.98025703
+The rate of exchange for my card payment is incorrect,Exchange rate for my card payment is wrong,0.9815645
 The rate of exchange for my card payment is incorrect,"In regards to my card payment, the exchange rate is incorrect.",0.98220956
-Is there a limit to how many transactions I can make on one disposable card?,With one disposable card how many transactions can i do?,0.95290685
-I have a new card and I want to activate it,Could you please tell me how to activate my new card?,0.9703666
+I have a new card and I want to activate it,I want to activate my new card.,0.9855255
+I have a new card and I want to activate it,I have a new card and need to activate it,0.9891225
+I have a new card and I want to activate it,I have a new card and I need to activate it.,0.98610425
+I have a new card and I want to activate it,I have a new card. How do I activate it?,0.98134387
 how much can i top up?,How much could I top up?,0.9920568
-How do you get a virtual card?,How do I go about getting a virtual card?,0.9858415
+How do you get a virtual card?,want to know how to get virtual card,0.9813255
+How do you get a virtual card?,What is the way to go about getting a virtual card?,0.9810759
+How do you get a virtual card?,how to get virtual card,0.98131907
+How do you get a virtual card?,How do I go about getting a virtual card?,0.98584145
+I got a extra €1 fee in my statement,There is a €1 extra fee in my statement,0.98708415
+I got a extra €1 fee in my statement,I got a €1 extra fee in my statement,0.9986112
+I got a extra €1 fee in my statement,"In my statement, I got a €1 extra fee.",0.9845499
+I got a extra €1 fee in my statement,"In my statement, there was an extra €1 fee",0.981642
 I got a extra €1 fee in my statement,An extra fee of €1 was in my statement,0.9854002
-What are the fees for top-ups?,What fees to you have for top ups?,0.9626847
 Why is my payment pending?,Why is this payment pending?,0.9897529
-The amount of time that transfers usually take from a UK account is what?I just completed a transfer and it is not showing up at all. I'm wondering at this point if everything is actually okay.,After making a transfer from a UK account it's not showing up. How long do these transfers normally take for you? I want to be certain everything is all right.,0.9584894
-"I sent out money, but was charged extra for transferring. Why?",Why was there an extra charge when I transferred money?,0.9586479

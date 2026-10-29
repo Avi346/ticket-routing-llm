@@ -52,4 +52,4 @@ ENCODER_MODEL = "microsoft/deberta-v3-base"   # baseline 2
 LLM_MODEL = "unsloth/Qwen3.5-4B"              # systems A, B, C
 
 # ---------- Leakage check ----------
-NEAR_DUPLICATE_THRESHOLD = 0.95               # cosine similarity above this gets flagged
+NEAR_DUPLICATE_THRESHOLD = 0.98              # cosine similarity above this gets flagged

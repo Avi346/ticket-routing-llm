@@ -35,7 +35,7 @@ def spread_evenly(df, seed):
     return df.loc[((pos + noise) / size).sort_values().index].reset_index(drop=True)
 
 
-def make_splits(name, raw):
+def make_splits(name, raw, drop=()):
     cfg = config.DATASETS[name]
     train = raw["train"].reset_index(drop=True)
     test_all = raw["test"].reset_index(drop=True)
@@ -51,9 +51,13 @@ def make_splits(name, raw):
         dev = raw[cfg["dev_source"]]
         pool = train
     dev = dev.reset_index(drop=True)
+        # remove dev rows that also appear in test
+    dev = dev[~dev["text"].map(clean).isin(test_texts)].reset_index(drop=True)
 
     # remove pool rows that also appear in dev
     pool = pool[~pool["text"].map(clean).isin(set(dev["text"].map(clean)))].reset_index(drop=True)
+     # remove train rows flagged as near-duplicates of test (found in build)
+    pool = pool[~pool["text"].map(clean).isin(set(drop))].reset_index(drop=True)
 
     test, _ = train_test_split(test_all, train_size=config.TEST_SIZE,
                                stratify=test_all["label"], random_state=config.SPLIT_SEED)
@@ -78,11 +82,11 @@ def find_near_duplicates(train_df, test_df):
     a = model.encode(train_df["text"].tolist(), normalize_embeddings=True)
     b = model.encode(test_df["text"].tolist(), normalize_embeddings=True)
     sim = b @ a.T
-    close = sim.max(axis=1) >= config.NEAR_DUPLICATE_THRESHOLD
+    test_idx, train_idx = np.where(sim >= config.NEAR_DUPLICATE_THRESHOLD)
     return pd.DataFrame({
-        "test_text": test_df["text"].values[close],
-        "train_text": train_df["text"].values[sim.argmax(axis=1)[close]],
-        "similarity": sim.max(axis=1)[close],
+        "test_text": test_df["text"].values[test_idx],
+        "train_text": train_df["text"].values[train_idx],
+        "similarity": sim[test_idx, train_idx],
     })
 
 
@@ -154,10 +158,10 @@ def build(name):
         return
     raw, labels = load_raw(name)
     splits = make_splits(name, raw)
-    train_all = pd.concat([df for k, df in splits.items() if k.startswith("train")])
-    near_dups = find_near_duplicates(train_all.drop_duplicates("text"), splits["test"])
+    near_dups = find_near_duplicates(raw["train"], splits["test"])
+    splits = make_splits(name, raw, set(near_dups["train_text"].map(clean)))
     save_splits(name, splits, labels, near_dups)
-    print(name, {k: len(v) for k, v in splits.items()}, "near duplicates:", len(near_dups))
+    print(name, {k: len(v) for k, v in splits.items()}, "near duplicate pairs removed:", len(near_dups))
 
 
 if __name__ == "__main__":
