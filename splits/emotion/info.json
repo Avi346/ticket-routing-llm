@@ -1,0 +1,14 @@
+{
+  "class_counts": {
+    "sadness": 300,
+    "joy": 300,
+    "fear": 300,
+    "love": 300,
+    "anger": 300,
+    "surprise": 300
+  },
+  "revision": "cab853a1dbdf4c42c2b3ef2173804746df8825fe",
+  "license": [
+    "other"
+  ]
+}
