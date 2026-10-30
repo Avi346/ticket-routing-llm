@@ -4,3 +4,5 @@ __pycache__/
 .env
 tmp_deberta/
 embeddings/
+cache/
+*.sqlite

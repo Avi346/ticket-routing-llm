@@ -68,3 +68,18 @@ DEBERTA_MIN_STEPS = 1000                          # train for max(5 epochs, 200 
 DEBERTA_BATCH = 16
 DEBERTA_MAX_LEN = 128
 DEBERTA_BEST_LR = {"banking77": 5e-5, "emotion": 1e-4}   # replace with your tuning results
+
+# ---------- Phase 3: prompting ----------
+PROMPT_VERSION = "v1"
+MAX_NEW_TOKENS = 24
+PROMPT_SEEDS = [0, 1]                                  
+FEWSHOT_BUDGETS = {"banking77": [2], "emotion": [10, 30]}
+RETRIEVAL_K = 10
+
+SHORT_PROMPT_MAX_SHOTS = 60                            # up to 60 examples in the prompt
+BATCH_SIZE_SHORT = 8                                   # batch 8 was timed for these in Phase 0
+BATCH_SIZE_LONG = 1                                    # longer prompts: only batch 1 was timed
+
+MAX_SEQ_LEN = 16384
+CACHE_LOCAL = "/content/llm_cache.sqlite"      # fast local copy on Colab
+CACHE_DRIVE = ROOT / "cache" / "llm_cache.sqlite"   # backup on Drive
