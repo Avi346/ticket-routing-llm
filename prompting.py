@@ -85,7 +85,8 @@ def generate_batch(chats):
     return results
 
 
-def run(user_texts, kind, cache, use_prefix=False):
+
+def run(user_texts, kind, cache, use_prefix=config.USE_ANSWER_PREFIX):
     bs = config.BATCH_SIZE[kind]
     chats = [to_chat(u, use_prefix) for u in user_texts]
     todo = [c for c in dict.fromkeys(chats) if cache.get(c, bs) is None]
@@ -102,7 +103,8 @@ def run(user_texts, kind, cache, use_prefix=False):
     return [prefix + r[0] for r in rows], [r[1] for r in rows], [r[2] for r in rows]
 
 
-def dev_check(name, kind, cache, use_prefix=False, shots=(), n=300):
+
+def dev_check(name, kind, cache, use_prefix=config.USE_ANSWER_PREFIX, shots=(), n=300):
     labels = data.load_labels(name)
     dev = data.load_dev_subsample(name).head(n)
     users = [prompts.build_prompt(t, labels, shots) for t in dev["text"]]

@@ -81,3 +81,5 @@ BATCH_SIZE = {"zero": 8, "retrieval": 8, "fewshot": 1}
 MAX_SEQ_LEN = 16384
 CACHE_LOCAL = "/content/llm_cache.sqlite"      # fast local copy on Colab
 CACHE_DRIVE = ROOT / "cache" / "llm_cache.sqlite"   # backup on Drive
+
+USE_ANSWER_PREFIX = True      # decided on dev: same accuracy, about 4 fewer output tokens
