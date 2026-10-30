@@ -83,3 +83,17 @@ CACHE_LOCAL = "/content/llm_cache.sqlite"      # fast local copy on Colab
 CACHE_DRIVE = ROOT / "cache" / "llm_cache.sqlite"   # backup on Drive
 
 USE_ANSWER_PREFIX = True      # decided on dev: same accuracy, about 4 fewer output tokens
+
+# ---------- Phase 4: LoRA ----------
+ADAPTER_DIR = ROOT / "adapters"
+
+LORA_R = 16
+LORA_ALPHA = 32
+LORA_DROPOUT = 0.05
+LORA_LR = 2e-4
+
+LORA_EPOCHS = 3
+LORA_MIN_STEPS = 100
+LORA_BATCH = 2
+LORA_ACCUM = 4
+LORA_MAX_LEN = 128
