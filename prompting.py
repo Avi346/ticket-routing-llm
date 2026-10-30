@@ -8,7 +8,7 @@ import json
 import os
 import shutil
 import sqlite3
-
+import retrieval
 import torch
 import pandas as pd
 import baselines
@@ -137,4 +137,20 @@ def run_A(name, cache, budget=0, seed=0):
     pd.DataFrame({"true": test["label"], "pred": pred, "raw": raw,
                   "tok_in": n_in, "tok_out": n_out}).to_csv(path, index_label="idx")
     print(system, name, budget, seed, "acc", round(float(evaluate.accuracy(test["label"].tolist(), pred)), 3),
+          "valid", round(evaluate.json_validity(raw, labels), 3), "tok_in", round(sum(n_in) / len(n_in)))
+
+
+def run_B(name, cache, budget, seed):
+    path = baselines.results_path("B", name, seed, budget)
+    if path.exists():
+        return
+    labels = data.load_labels(name)
+    test = data.load_test(name, config.HEADLINE_TEST_SIZE)
+    shots = retrieval.neighbours(name, seed, budget)
+    users = [prompts.build_prompt(t, labels, s) for t, s in zip(test["text"], shots)]
+    raw, n_in, n_out = run(users, "retrieval", cache)
+    pred = [evaluate.parse_output(r, labels) for r in raw]
+    pd.DataFrame({"true": test["label"], "pred": pred, "raw": raw,
+                  "tok_in": n_in, "tok_out": n_out}).to_csv(path, index_label="idx")
+    print("B", name, budget, seed, "acc", round(float(evaluate.accuracy(test["label"].tolist(), pred)), 3),
           "valid", round(evaluate.json_validity(raw, labels), 3), "tok_in", round(sum(n_in) / len(n_in)))
