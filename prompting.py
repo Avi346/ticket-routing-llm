@@ -1,6 +1,8 @@
 import unsloth  # must be imported before transformers
 from unsloth import FastLanguageModel
-
+import time
+import data
+import evaluate
 import hashlib
 import json
 import os
@@ -98,3 +100,17 @@ def run(user_texts, kind, cache, use_prefix=False):
     rows = [cache.get(c, bs) for c in chats]
     prefix = prompts.ANSWER_PREFIX if use_prefix else ""
     return [prefix + r[0] for r in rows], [r[1] for r in rows], [r[2] for r in rows]
+
+
+def dev_check(name, kind, cache, use_prefix=False, shots=(), n=300):
+    labels = data.load_labels(name)
+    dev = data.load_dev_subsample(name).head(n)
+    users = [prompts.build_prompt(t, labels, shots) for t in dev["text"]]
+    t0 = time.time()
+    raw, n_in, n_out = run(users, kind, cache, use_prefix)
+    sec = (time.time() - t0) / len(users)
+    pred = [evaluate.parse_output(r, labels) for r in raw]
+    return {"acc": round(float(evaluate.accuracy(dev["label"].tolist(), pred)), 3),
+            "valid": round(evaluate.json_validity(raw, labels), 3),
+            "tok_in": round(sum(n_in) / len(n_in)), "tok_out": round(sum(n_out) / len(n_out), 1),
+            "sec_per_item": round(sec, 2)}
