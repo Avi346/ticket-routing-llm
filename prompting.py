@@ -19,6 +19,7 @@ def load_model():
     global model, tok
     model, tok = FastLanguageModel.from_pretrained(
         model_name=config.LLM_MODEL, max_seq_length=config.MAX_SEQ_LEN,
+        dtype=torch.float16,
         load_in_4bit=False, load_in_16bit=True)
     FastLanguageModel.for_inference(model)
     tok = getattr(tok, "tokenizer", tok)
@@ -26,11 +27,6 @@ def load_model():
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
 
-
-def batch_size(n_shots):
-    if n_shots <= config.SHORT_PROMPT_MAX_SHOTS:
-        return config.BATCH_SIZE_SHORT
-    return config.BATCH_SIZE_LONG
 
 
 def to_chat(user_text, use_prefix=False):
@@ -88,8 +84,8 @@ def generate_batch(chats):
     return results
 
 
-def run(user_texts, n_shots, cache, use_prefix=False):
-    bs = batch_size(n_shots)
+def run(user_texts, kind, cache, use_prefix=False):
+    bs = config.BATCH_SIZE[kind]
     chats = [to_chat(u, use_prefix) for u in user_texts]
     todo = [c for c in dict.fromkeys(chats) if cache.get(c, bs) is None]
     for i in range(0, len(todo), bs):
