@@ -19,7 +19,6 @@ def load_model():
     global model, tok
     model, tok = FastLanguageModel.from_pretrained(
         model_name=config.LLM_MODEL, max_seq_length=config.MAX_SEQ_LEN,
-        dtype=torch.float16,
         load_in_4bit=False, load_in_16bit=True)
     FastLanguageModel.for_inference(model)
     tok = getattr(tok, "tokenizer", tok)
