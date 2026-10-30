@@ -116,3 +116,24 @@ def dev_check(name, kind, cache, use_prefix=config.USE_ANSWER_PREFIX, shots=(), 
             "valid": round(evaluate.json_validity(raw, labels), 3),
             "tok_in": round(sum(n_in) / len(n_in)), "tok_out": round(sum(n_out) / len(n_out), 1),
             "sec_per_item": round(sec, 2)}
+
+
+def run_A(name, cache, budget=0, seed=0):
+    system = "A_fewshot" if budget else "A_zero"
+    path = baselines.results_path(system, name, seed, budget)
+    if path.exists():
+        return
+    labels = data.load_labels(name)
+    test = data.load_test(name, config.HEADLINE_TEST_SIZE)
+    shots = []
+    if budget:
+        tr = data.load_train(name, seed, budget)
+        shots = list(zip(tr["text"], tr["label"]))
+    users = [prompts.build_prompt(t, labels, shots) for t in test["text"]]
+    raw, n_in, n_out = run(users, "fewshot" if budget else "zero", cache)
+    pred = [evaluate.parse_output(r, labels) for r in raw]
+    path.parent.mkdir(exist_ok=True)
+    pd.DataFrame({"true": test["label"], "pred": pred, "raw": raw,
+                  "tok_in": n_in, "tok_out": n_out}).to_csv(path, index_label="idx")
+    print(system, name, budget, seed, "acc", round(float(evaluate.accuracy(test["label"].tolist(), pred)), 3),
+          "valid", round(evaluate.json_validity(raw, labels), 3), "tok_in", round(sum(n_in) / len(n_in)))
