@@ -53,3 +53,40 @@ def load_model(seed):
         tok.pad_token = tok.eos_token
 
     return model, tok
+
+def training_dataset(name, seed, budget, tok):
+    from datasets import Dataset
+
+    import config
+    import prompts
+
+    rows = []
+
+    for row in training_messages(name, seed, budget):
+        messages = row["messages"]
+
+        prompt = tok.apply_chat_template(
+            messages[:1],
+            tokenize=False,
+            add_generation_prompt=True,
+            enable_thinking=False,
+        )
+
+        if config.USE_ANSWER_PREFIX:
+            prompt += prompts.ANSWER_PREFIX
+
+        full = tok.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=False,
+            enable_thinking=False,
+        )
+
+        assert full.startswith(prompt), "Training and generation formats differ"
+
+        rows.append({
+            "prompt": prompt,
+            "completion": full[len(prompt):],
+        })
+
+    return Dataset.from_list(rows)
