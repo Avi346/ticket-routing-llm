@@ -97,3 +97,9 @@ LORA_MIN_STEPS = 100
 LORA_BATCH = 2
 LORA_ACCUM = 4
 LORA_MAX_LEN = 128
+
+# ---------- Phase 5: benchmarks ----------
+BENCHMARK_DIR = ROOT / "benchmarks"
+BENCHMARK_N = 200
+BENCHMARK_WARMUP = 5
+BENCHMARK_SEED = 0
