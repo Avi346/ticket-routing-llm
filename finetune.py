@@ -232,3 +232,57 @@ def train_run(name, seed, budget):
     train_ds = training_dataset(name, seed, budget, tok)
 
     train_lora(model, tok, train_ds, seed, folder)
+
+def test_run(name, seed, budget):
+    from unsloth import FastLanguageModel
+    import pandas as pd
+
+    import baselines
+    import config
+    import evaluate
+
+    path = baselines.results_path("C", name, seed, budget)
+
+    if path.exists():
+        print("Already scored:", path.name)
+        return
+
+    folder = config.ADAPTER_DIR / name / f"b{budget}_s{seed}"
+
+    if not (folder / "training_stats.json").exists():
+        folder = config.ADAPTER_DIR / "dev" / f"{name}_b{budget}_s{seed}"
+
+    assert (folder / "training_stats.json").exists(), "Completed adapter missing"
+
+    model, tok = FastLanguageModel.from_pretrained(
+        model_name=str(folder),
+        max_seq_length=config.MAX_SEQ_LEN,
+        load_in_4bit=False,
+        load_in_16bit=True,
+    )
+    tok = getattr(tok, "tokenizer", tok)
+
+    test = data.load_test(name, config.HEADLINE_TEST_SIZE)
+    labels = data.load_labels(name)
+
+    raw, n_in, n_out = predict(model, tok, test["text"].tolist())
+    pred = [evaluate.parse_output(reply, labels) for reply in raw]
+
+    df = pd.DataFrame({
+        "true": test["label"],
+        "pred": pred,
+        "raw": raw,
+        "tok_in": n_in,
+        "tok_out": n_out,
+    })
+
+    path.parent.mkdir(exist_ok=True)
+    temporary = path.with_suffix(".tmp")
+    df.to_csv(temporary, index_label="idx")
+    temporary.replace(path)
+
+    print(
+        "C", name, budget, seed,
+        "acc", round(float(evaluate.accuracy(test["label"], pred)), 3),
+        "valid", round(evaluate.json_validity(raw, labels), 3),
+    )
