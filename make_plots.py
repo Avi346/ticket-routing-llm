@@ -15,8 +15,8 @@ SYSTEMS = {
     "logreg": ("LogReg", "#0072B2"),
     "deberta": ("DeBERTa", "#D55E00"),
     "B": ("Retrieval (B)", "#009E73"),
+    "C": ("LoRA (C)", "#6F4E99"),
 }
-
 
 def load_correct(system, name, budget):
     seeds = config.SEEDS
@@ -62,10 +62,27 @@ def make_figure(show_ci=False):
         n_classes = len(data.load_labels(name))
         budgets = config.DATASETS[name]["budgets"]
         xs = [b * n_classes for b in budgets]
-        heights = {"logreg": 0.95, "deberta": 0.83, "B": 0.89} if name == "banking77" else {
-            "logreg": 0.56, "deberta": 0.914, "B": 0.70}
+        if name == "banking77":
+            heights = {
+                "C": 0.98,
+                "logreg": 0.92,
+                "B": 0.86,
+                "deberta": 0.80,
+            }
+        else:
+            heights = {
+                "deberta": 0.96,
+                "C": 0.88,
+                "B": 0.70,
+                "logreg": 0.56,
+            }
+
         for system, (label, color) in SYSTEMS.items():
-            _, means = plot_curve(ax, system, name, budgets, color, show_ci)
+            _, means = plot_curve(
+                ax, system, name, budgets, color, show_ci,
+                marker="s" if system == "C" else "o",
+                linestyle="--" if system == "C" else "-",
+            )
             label_line(ax, xs[-1], means[-1], label, color, heights[system])
 
         mean, low, high = evaluate.bootstrap_ci(load_correct("A_zero", name, 0))
@@ -109,7 +126,7 @@ def make_figure(show_ci=False):
                  x=0.06, ha="left", fontsize=18, y=0.98)
     fig.text(0.06, 0.90, f"Same {config.HEADLINE_TEST_SIZE} test items per dataset",
              fontsize=11, color="#666666")
-    fig.text(0.06, 0.03, "LogReg / DeBERTa: 3 seeds; retrieval / few-shot: 2 seeds. "
+    fig.text(0.06, 0.03, "Trained models: 3 seeds; retrieval / few-shot: 2 seeds. "
              "* Emotion at 180 labels: seed 0 only (T4 memory limit).", fontsize=9, color="#666666")
     if show_ci:
         fig.text(0.06, 0.07, "Error bars: 95% bootstrap intervals over test items.",
