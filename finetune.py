@@ -164,4 +164,55 @@ def train_lora(model, tok, train_ds, seed, folder):
 
     print("Peak GPU GB:", round(stats["peak_gpu_gb"], 2))
     print("Saved:", folder)
-    return trainer;
+    return trainer
+
+def predict(model, tok, texts):
+    from unsloth import FastLanguageModel
+    import torch
+
+    import config
+    import prompts
+
+    FastLanguageModel.for_inference(model)
+    tok.padding_side = "left"
+
+    prefix = prompts.ANSWER_PREFIX if config.USE_ANSWER_PREFIX else ""
+    chats = []
+
+    for text in texts:
+        chat = tok.apply_chat_template(
+            [{"role": "user", "content": f"Message: {text}"}],
+            tokenize=False,
+            add_generation_prompt=True,
+            enable_thinking=False,
+        )
+        chats.append(chat + prefix)
+
+    raw, n_in, n_out = [], [], []
+    batch = config.BATCH_SIZE["zero"]
+
+    for i in range(0, len(chats), batch):
+        inputs = tok(
+            chats[i:i + batch],
+            return_tensors="pt",
+            padding=True,
+            add_special_tokens=False,
+        ).to("cuda")
+
+        with torch.inference_mode():
+            out = model.generate(
+                **inputs,
+                max_new_tokens=config.MAX_NEW_TOKENS,
+                do_sample=False,
+                use_cache=True,
+                pad_token_id=tok.pad_token_id,
+            )
+
+        new = out[:, inputs["input_ids"].shape[1]:]
+        replies = tok.batch_decode(new, skip_special_tokens=True)
+
+        raw.extend(prefix + reply.strip() for reply in replies)
+        n_in.extend(inputs["attention_mask"].sum(1).tolist())
+        n_out.extend((new != tok.pad_token_id).sum(1).tolist())
+
+    return raw, n_in, n_out
