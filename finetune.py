@@ -90,3 +90,78 @@ def training_dataset(name, seed, budget, tok):
         })
 
     return Dataset.from_list(rows)
+
+def train_lora(model, tok, train_ds, seed, folder):
+    import math
+    import torch
+    from trl import SFTConfig, SFTTrainer
+
+    import config
+
+    if (folder / "adapter_config.json").exists():
+        raise FileExistsError("Adapter already saved. Stop before retraining.")
+
+    batch = config.LORA_BATCH * config.LORA_ACCUM
+    steps = max(
+        config.LORA_EPOCHS * math.ceil(len(train_ds) / batch),
+        config.LORA_MIN_STEPS,
+    )
+
+    args = SFTConfig(
+        output_dir=str(folder),
+        max_steps=steps,
+        max_length=config.LORA_MAX_LEN,
+        per_device_train_batch_size=config.LORA_BATCH,
+        gradient_accumulation_steps=config.LORA_ACCUM,
+        learning_rate=config.LORA_LR,
+        warmup_steps=steps // 10,
+        optim="adamw_8bit",
+        fp16=True,
+        bf16=False,
+        packing=False,
+        completion_only_loss=True,
+        dataset_num_proc=1,
+        seed=seed,
+        data_seed=seed,
+        logging_steps=25,
+        logging_first_step=True,
+        logging_nan_inf_filter=False,
+        save_strategy="no",
+        report_to="none",
+    )
+
+    trainer = SFTTrainer(
+        model=model,
+        processing_class=tok,
+        train_dataset=train_ds,
+        args=args,
+    )
+
+    sample = trainer.data_collator([trainer.train_dataset[0]])
+    labels = sample["labels"][0]
+    learned = tok.decode(
+        labels[labels != -100].tolist(), skip_special_tokens=True
+    ).strip()
+    expected = train_ds[0]["completion"].replace(tok.eos_token, "").strip()
+    assert learned == expected, "Training target mismatch"
+
+    torch.cuda.reset_peak_memory_stats()
+    result = trainer.train()
+
+    if not math.isfinite(result.training_loss):
+        raise RuntimeError("Non-finite training loss. Adapter not saved.")
+
+    trainer.save_model(str(folder))
+    tok.save_pretrained(str(folder))
+
+    stats = {
+        "steps": result.global_step,
+        "seconds": result.metrics["train_runtime"],
+        "peak_gpu_gb": torch.cuda.max_memory_allocated() / 1e9,
+        "train_loss": result.training_loss,
+    }
+    (folder / "training_stats.json").write_text(json.dumps(stats, indent=2))
+
+    print("Peak GPU GB:", round(stats["peak_gpu_gb"], 2))
+    print("Saved:", folder)
+    return trainer;

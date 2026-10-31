@@ -5,3 +5,4 @@ __pycache__/
 tmp_deberta/
 cache/
 *.sqlite
+adapters/
