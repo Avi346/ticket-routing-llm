@@ -200,13 +200,14 @@ def predict(model, tok, texts):
         ).to("cuda")
 
         with torch.inference_mode():
-            out = model.generate(
-                **inputs,
-                max_new_tokens=config.MAX_NEW_TOKENS,
-                do_sample=False,
-                use_cache=True,
-                pad_token_id=tok.pad_token_id,
-            )
+           out = model.generate(
+    **inputs,
+    max_new_tokens=config.MAX_NEW_TOKENS,
+    do_sample=False,
+    use_cache=True,
+    pad_token_id=tok.pad_token_id,
+    eos_token_id=tok.eos_token_id,
+)
 
         new = out[:, inputs["input_ids"].shape[1]:]
         replies = tok.batch_decode(new, skip_special_tokens=True)
