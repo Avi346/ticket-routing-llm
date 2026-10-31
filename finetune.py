@@ -217,3 +217,18 @@ def predict(model, tok, texts):
         n_out.extend((new != tok.pad_token_id).sum(1).tolist())
 
     return raw, n_in, n_out
+
+
+def train_run(name, seed, budget):
+    import config
+
+    folder = config.ADAPTER_DIR / name / f"b{budget}_s{seed}"
+
+    if (folder / "training_stats.json").exists():
+        print("Already trained:", folder)
+        return
+
+    model, tok = load_model(seed)
+    train_ds = training_dataset(name, seed, budget, tok)
+
+    train_lora(model, tok, train_ds, seed, folder)
