@@ -53,8 +53,8 @@ def measure(predict, texts, batch_size):
         "latency_p95_ms": float(np.percentile(latencies, 95) * 1000),
         "throughput_rps": len(texts) / elapsed,
         "throughput_seconds": elapsed,
-        "mean_input_tokens": float(np.mean(input_tokens)),
-        "mean_output_tokens": float(np.mean(output_tokens)),
+        "mean_input_tokens": float(np.mean(input_tokens)) if input_tokens else None,
+        "mean_output_tokens": float(np.mean(output_tokens)) if output_tokens else None,
         "latency_seconds": latencies,
     }
 
