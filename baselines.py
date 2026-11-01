@@ -71,7 +71,8 @@ def run_logreg(name):
             
 import math 
 
-def train_deberta(name, seed, budget, lr, eval_texts, min_steps=None):
+def train_deberta(
+    name, seed, budget, lr, eval_texts, min_steps=None, save_dir=None):
     import torch
     from datasets import Dataset
     from transformers import (AutoModelForSequenceClassification, AutoTokenizer,
@@ -97,11 +98,23 @@ def train_deberta(name, seed, budget, lr, eval_texts, min_steps=None):
     args = TrainingArguments(output_dir="tmp_deberta", max_steps=steps, learning_rate=lr,
                              per_device_train_batch_size=config.DEBERTA_BATCH,
                              per_device_eval_batch_size=64, fp16=True,
-                             seed=seed, data_seed=seed, warmup_ratio=0.1,
+                             seed=seed, data_seed=seed, warmup_steps=math.ceil(0.1 * steps),
                              save_strategy="no", report_to="none",
                              logging_strategy="steps", logging_steps=50)
     trainer = Trainer(model=model, args=args, train_dataset=train_ds, processing_class=tok)
-    trainer.train()
+    training = trainer.train()
+
+    if save_dir is not None:
+        import json
+        from pathlib import Path
+
+        folder = Path(save_dir)
+        trainer.save_model(str(folder))
+        tok.save_pretrained(str(folder))
+        (folder / "training_stats.json").write_text(json.dumps({
+            "steps": steps,
+            "seconds": training.metrics["train_runtime"],
+        }, indent=2))
 
     out = trainer.predict(Dataset.from_dict(encode(eval_texts))).predictions.argmax(-1)
     del trainer, model
