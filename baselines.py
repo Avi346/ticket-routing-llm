@@ -86,7 +86,7 @@ def train_deberta(
 
     tok = AutoTokenizer.from_pretrained(config.ENCODER_MODEL)
     model = AutoModelForSequenceClassification.from_pretrained(
-        config.ENCODER_MODEL, num_labels=len(labels))
+        config.ENCODER_MODEL, num_labels=len(labels),dtype=torch.float32)
 
     def encode(texts):
         return tok(texts, truncation=True, max_length=config.DEBERTA_MAX_LEN)
