@@ -1,0 +1,51 @@
+dataset,idx,text,true,B,C,deberta,logreg
+banking77,21,What is the base amount for cross-currency exchanges?,exchange_charge,exchange_rate,exchange_charge,exchange_charge,exchange_charge
+banking77,45,I made a withdrawal from my account but it has not posted?,pending_cash_withdrawal,cash_withdrawal_not_recognised,pending_cash_withdrawal,balance_not_updated_after_cheque_or_cash_deposit,pending_cash_withdrawal
+banking77,62,Why isn't my transfer going through? I get a message saying it's not possible. I've had no issues in the past.,beneficiary_not_allowed,failed_transfer,declined_transfer,failed_transfer,failed_transfer
+banking77,71,When should I receive my virtual card?,getting_virtual_card,card_delivery_estimate,getting_virtual_card,getting_virtual_card,getting_virtual_card
+banking77,127,Where is the money I topped off with?,pending_top_up,balance_not_updated_after_cheque_or_cash_deposit,top_up_reverted,top_up_by_card_charge,topping_up_by_card
+banking77,145,What happens if a merchant doesn't accept a payment?,reverted_card_payment?,card_acceptance,declined_card_payment,declined_card_payment,reverted_card_payment?
+banking77,153,What are your policies for card transfers?,failed_transfer,transfer_timing,top_up_by_bank_transfer_charge,edit_personal_details,receiving_money
+banking77,183,How long should my new card take to arrive?,card_arrival,card_arrival,card_delivery_estimate,card_delivery_estimate,card_delivery_estimate
+banking77,194,What are some reasons that would cause ATM machines to decline my card? It has happened to me multiple times!,declined_cash_withdrawal,atm_support,declined_cash_withdrawal,declined_cash_withdrawal,declined_cash_withdrawal
+banking77,205,"OMG!  I'm trying to load my card and it wont top up!  I desperately need the money either on my card or in my bank, where is it?",pending_top_up,top_up_failed,top_up_failed,topping_up_by_card,topping_up_by_card
+banking77,217,Can you help me figure out what's happening? I'm trying to transfer money to a friend but it keeps getting returned. I'm not sure what i'm doing wrong.,failed_transfer,declined_transfer,<invalid>,reverted_card_payment?,transfer_not_received_by_recipient
+banking77,227,There's a debit on my account that I didn't do.,direct_debit_payment_not_recognised,card_payment_not_recognised,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised
+banking77,274,I put money into my account for the minimum balance but the application didn't accept.,top_up_reverted,top_up_failed,declined_transfer,beneficiary_not_allowed,wrong_amount_of_cash_received
+banking77,293,My card was not accepted.,declined_card_payment,card_acceptance,declined_card_payment,declined_card_payment,declined_card_payment
+banking77,295,"Hi, I don't think your exchange rate is right. I need you to check the official interbank exchange please.",card_payment_wrong_exchange_rate,exchange_rate,card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate
+banking77,330,Can I top up using my car?,topping_up_by_card,<invalid>,topping_up_by_card,topping_up_by_card,automatic_top_up
+banking77,342,Is it possible to deposit money in GBP?,receiving_money,fiat_currency_support,receiving_money,exchange_via_app,receiving_money
+banking77,345,I've been waiting longer than expected for my card.,card_arrival,card_delivery_estimate,card_arrival,card_arrival,card_arrival
+banking77,385,How do I track my card?,card_arrival,card_arrival,lost_or_stolen_card,card_arrival,card_arrival
+banking77,398,Is there a transfer fee?,transfer_fee_charged,transfer_fee_charged,top_up_by_bank_transfer_charge,top_up_by_bank_transfer_charge,top_up_by_bank_transfer_charge
+banking77,420,I am waiting for my card to arrive.,card_delivery_estimate,card_arrival,card_arrival,card_arrival,card_delivery_estimate
+banking77,445,Cannot access my top up.,topping_up_by_card,pending_top_up,topping_up_by_card,topping_up_by_card,topping_up_by_card
+banking77,458,How many disposable virtual cards can I have?,disposable_card_limits,disposable_card_limits,get_disposable_virtual_card,get_disposable_virtual_card,disposable_card_limits
+banking77,495,"i know i entered the right info, but my top up isn't in my balance",topping_up_by_card,balance_not_updated_after_bank_transfer,topping_up_by_card,topping_up_by_card,pending_top_up
+banking77,498,I think my card payment has been stopped,reverted_card_payment?,reverted_card_payment?,card_not_working,reverted_card_payment?,reverted_card_payment?
+emotion,21,i don t feel guilty like i m not going to be able to cook for him,sadness,joy,sadness,sadness,joy
+emotion,23,i feel particularly uncomfortable with how much a driver is looking down on the phone i shout eyes on the prize,fear,anger,fear,fear,fear
+emotion,25,i guess its because i feel like if im too passionate about something it will get taken away from me,love,fear,love,love,love
+emotion,47,i left there feeling brow beaten,sadness,anger,sadness,sadness,sadness
+emotion,78,im feeling angry at someone i do something thoughtful for her and my feelings toward her soften,anger,anger,love,anger,anger
+emotion,102,i have learned how to present in front of a class without feeling nervous,fear,joy,fear,fear,joy
+emotion,148,i careened from feeling confident in my abilities as a writer to being equally sure that i will never ever write anything worth reading,joy,fear,joy,joy,fear
+emotion,157,i feel accepted and loved by a community of derby girls that i helped to create,joy,love,love,love,love
+emotion,159,im not sure the feeling of loss will ever go away but it may dull to a sweet feeling of nostalgia at what i shared in this life with my dad and the luck i had to have a dad for years,sadness,love,love,love,love
+emotion,174,i see how it turns out i ll talk more about it right now i m feeling proud and scared and a little sick i think that s adrenaline though,joy,fear,joy,joy,joy
+emotion,176,i honestly feel extremely shy to ask my friends to take pictures of me how vain must they think i am,fear,sadness,fear,fear,fear
+emotion,179,im amazed how many men say they feel unloved if the house is messy and they have to fix their own dinner,sadness,surprise,sadness,surprise,anger
+emotion,184,ill let myself shed a few tears and feel bitter confused frustrated and hurt for the last time,anger,sadness,anger,fear,sadness
+emotion,224,i wont lie this week has been abit of a difficult week for me ive been feeling very stressed and anxious this week plus i think im coming down with the flu but it has definately helped me to appreciate the little things,anger,joy,fear,anger,fear
+emotion,256,i have tested positive but i have never taken drugs and i feel innocent says martina,joy,sadness,joy,joy,sadness
+emotion,273,i take photos of but i suppose since i feel i am least talented in the area of portraiture i most admire that ability in others,joy,sadness,joy,joy,love
+emotion,288,i don t know what to feel as in i am not sure should i feel sad cause it is ending or should i feel glad that it is over and i can move on,joy,sadness,sadness,sadness,sadness
+emotion,292,i feel any better,joy,sadness,joy,joy,joy
+emotion,323,i set aside that feeling and happily helped them now that every thing was been normalized and the students had liked me they change my schedule and i am just forgotten to oblivion,love,joy,love,sadness,joy
+emotion,337,i was feeling pretty distracted with a few things that have been going on so it felt good to go with a clear mind,anger,joy,anger,anger,joy
+emotion,400,im feeling relieved yet painful but something inside me is creepily numb i feel like a ghost in the hallways the way i used to just dont tell me its only another time to succumb,joy,sadness,joy,joy,sadness
+emotion,414,ive got a off sale the ad says starting tomorrow but im feeling generous and started it now,love,joy,love,love,joy
+emotion,449,i guess feelings aren t meant to be inhibited or prohibited,fear,sadness,fear,fear,love
+emotion,470,i don t feel brave though,joy,fear,joy,joy,fear
+emotion,473,i would do almost anything to have that feeling back and those days back they were carefree and wonderful and now everything in my life is just so complicated,joy,sadness,joy,joy,love

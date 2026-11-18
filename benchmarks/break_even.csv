@@ -1,0 +1,3 @@
+dataset,budget_per_class,batch_size,lora_training_seconds,B_seconds_per_1000,C_seconds_per_1000,break_even_requests,status
+banking77,20,8,1018.3562,806.2931107650002,139.61163652999858,1528,finite
+emotion,300,8,1219.5061,432.8215549450033,95.23410411499754,3613,finite

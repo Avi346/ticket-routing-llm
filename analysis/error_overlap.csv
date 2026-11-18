@@ -1,0 +1,11 @@
+dataset,left,right,seed,test_items,both_right,only_left_right,only_right_right,both_wrong
+banking77,B,C,0,500,428,20,26,26
+banking77,B,C,1,500,431,12,33,24
+banking77,C,deberta,0,500,429,25,18,28
+banking77,C,deberta,1,500,432,32,11,25
+banking77,C,deberta,2,500,426,23,17,34
+emotion,B,C,0,500,323,17,127,33
+emotion,B,C,1,500,331,14,124,31
+emotion,C,deberta,0,500,429,21,25,25
+emotion,C,deberta,1,500,440,15,22,23
+emotion,C,deberta,2,500,441,19,14,26

@@ -1,0 +1,15 @@
+# Optional model training and inference dependencies for Linux/Colab with CUDA.
+# Install the appropriate CUDA build of PyTorch first; see README.md.
+-r requirements.txt
+torch==2.11.0
+transformers==5.17.0
+sentence-transformers==5.6.0
+unsloth==2026.10.10
+trl==1.15.0
+# These supporting packages were not version-recorded in the timing artifacts.
+datasets
+huggingface-hub
+accelerate
+peft
+bitsandbytes
+sentencepiece

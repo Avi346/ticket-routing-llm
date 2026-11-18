@@ -6,3 +6,7 @@ tmp_deberta/
 cache/
 *.sqlite
 adapters/
+.venv/
+PROJECT_GUIDE.md
+PROJECT_GUIDE(1).md
+PROJECT_FLOW_WALKTHROUGH.md

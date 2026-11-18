@@ -1,0 +1,6 @@
+# Analysis and tests. Versions used to validate the saved results locally.
+numpy==2.2.3
+pandas==2.2.3
+scikit-learn==1.6.1
+matplotlib==3.10.1
+pytest==9.2.0

@@ -1,0 +1,10 @@
+dataset,error_type,reviewed_messages
+banking77,clear_model_error,2
+banking77,insufficient_context,5
+banking77,invalid_output,2
+banking77,related_intents,16
+emotion,emotion_boundary,5
+emotion,insufficient_context,2
+emotion,label_convention,5
+emotion,lexical_cue,1
+emotion,mixed_emotions,12

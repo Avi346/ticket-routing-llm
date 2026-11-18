@@ -1,6 +1,4 @@
-import data, prompts
-
-labels = data.load_labels("banking77")
-train = data.load_train("banking77", 0, 2)
-shots = list(zip(train["text"], train["label"]))
-print(prompts.build_prompt("my card has not arrived", labels, shots[:2]))
+import baselines
+for n in ["banking77", "emotion"]:
+    for key in ["test", "train_seed0", "train_seed1"]:
+        baselines.embed(n, key)
